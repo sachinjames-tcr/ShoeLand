@@ -1,0 +1,117 @@
+{% extends "base.html" %}
+{% load humanize %}
+{% block title %}Your Cart | {{ SITE_NAME }}{% endblock %}
+{% block content %}
+
+<div class="breadcrumb-bar">
+  <div class="container">
+    <h1>Your Cart</h1>
+    <nav aria-label="breadcrumb"><ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="{% url 'core:home' %}">Home</a></li>
+      <li class="breadcrumb-item active">Cart</li>
+    </ol></nav>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+    {% if cart_items %}
+    <div class="row g-4">
+      <div class="col-lg-8">
+        <div class="table-responsive">
+          <table class="table align-middle">
+            <thead>
+              <tr class="text-muted small text-uppercase">
+                <th>Product</th><th>Price</th><th>Quantity</th><th>Total</th><th></th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for item in cart_items %}
+              <tr>
+                <td>
+                  <div class="d-flex align-items-center gap-3">
+                    {% with item.product.images.first as img %}
+                    <img src="{% if img %}{{ img.image.url }}{% else %}https://placehold.co/80x80/0d0d0d/ff6b00?text=SL{% endif %}" style="width:70px; height:70px; object-fit:cover; border-radius:4px;" alt="{{ item.product.name }}">
+                    {% endwith %}
+                    <div>
+                      <a href="{{ item.product.get_absolute_url }}" class="fw-semibold text-dark">{{ item.product.name }}</a>
+                      <div class="text-muted small">{{ item.product.brand.name }}</div>
+                    </div>
+                  </div>
+                </td>
+                <td>₹{{ item.product.current_price|intcomma }}</td>
+                <td>
+                  <input type="number" min="1" value="{{ item.quantity }}" class="form-control form-control-sm cart-qty-input qty-input" data-product-id="{{ item.product.id }}">
+                </td>
+                <td class="fw-semibold">₹{{ item.total_price|intcomma }}</td>
+                <td>
+                  <div class="d-flex flex-column gap-1">
+                    <a href="{% url 'cart:remove_from_cart' item.product.id %}" class="text-danger small"><i class="bi bi-trash"></i> Remove</a>
+                    <a href="{% url 'cart:save_for_later' item.product.id %}" class="text-muted small">Save for later</a>
+                  </div>
+                </td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+
+        {% if saved_items %}
+        <h5 class="mt-4">Saved For Later</h5>
+        <div class="table-responsive">
+          <table class="table align-middle">
+            <tbody>
+              {% for item in saved_items %}
+              <tr>
+                <td>
+                  <div class="d-flex align-items-center gap-3">
+                    {% with item.product.images.first as img %}
+                    <img src="{% if img %}{{ img.image.url }}{% else %}https://placehold.co/80x80/0d0d0d/ff6b00?text=SL{% endif %}" style="width:60px; height:60px; object-fit:cover; border-radius:4px;" alt="{{ item.product.name }}">
+                    {% endwith %}
+                    <span>{{ item.product.name }}</span>
+                  </div>
+                </td>
+                <td>₹{{ item.product.current_price|intcomma }}</td>
+                <td><a href="{% url 'cart:move_to_cart' item.product.id %}" class="btn btn-shoeland-outline btn-sm">Move to Cart</a></td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+        </div>
+        {% endif %}
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card-shoeland p-4">
+          <h5 class="mb-3">Order Summary</h5>
+          <div class="d-flex justify-content-between mb-2"><span>Subtotal</span><span>₹{{ subtotal|intcomma }}</span></div>
+          <div class="d-flex justify-content-between mb-2"><span>Shipping</span><span>{% if shipping == 0 %}FREE{% else %}₹{{ shipping|intcomma }}{% endif %}</span></div>
+          <div class="d-flex justify-content-between mb-2"><span>Tax</span><span>₹{{ tax|intcomma }}</span></div>
+          <hr>
+          <div class="d-flex justify-content-between fw-bold fs-5 mb-3"><span>Total</span><span>₹{{ grand_total|intcomma }}</span></div>
+
+          {% if user.is_authenticated %}
+            <form method="post" action="{% url 'orders:apply_coupon' %}" class="d-flex gap-2 mb-3">
+              {% csrf_token %}
+              <input type="text" name="code" class="form-control form-control-sm" placeholder="Coupon code">
+              <button class="btn btn-shoeland-outline btn-sm">Apply</button>
+            </form>
+            <a href="{% url 'orders:checkout' %}" class="btn btn-shoeland w-100">Proceed to Checkout <i class="bi bi-arrow-right"></i></a>
+          {% else %}
+            <a href="{% url 'accounts:login' %}?next={% url 'orders:checkout' %}" class="btn btn-shoeland w-100">Login to Checkout</a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+    {% else %}
+      <div class="text-center py-5">
+        <i class="bi bi-bag-x" style="font-size:4rem; color:var(--c-steel);"></i>
+        <h4 class="mt-3">Your cart is empty</h4>
+        <p class="text-muted">Looks like you haven't added anything yet.</p>
+        <a href="{% url 'products:shop' %}" class="btn btn-shoeland">Start Shopping</a>
+      </div>
+    {% endif %}
+  </div>
+</section>
+
+{% endblock %}

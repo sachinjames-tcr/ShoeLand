@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block title %}Login | {{ SITE_NAME }}{% endblock %}
+{% block content %}
+<section class="section auth-wrap">
+  <div class="container">
+    <div class="row g-4 align-items-stretch justify-content-center">
+      <div class="col-lg-5 d-none d-lg-block">
+        <div class="auth-side">
+          <div class="eyebrow" style="color:var(--c-orange); font-weight:700; letter-spacing:0.15em; text-transform:uppercase; font-size:0.8rem;">Welcome Back</div>
+          <h2 class="text-white">Good To See You Again</h2>
+          <p class="text-secondary">Log in to view your orders, wishlist, and saved addresses.</p>
+        </div>
+      </div>
+      <div class="col-lg-5">
+        <div class="auth-card">
+          <h3 class="mb-4">Login to Your Account</h3>
+          {% if form.non_field_errors %}
+            <div class="alert alert-danger">{{ form.non_field_errors|join:", " }}</div>
+          {% endif %}
+          <form method="post" class="needs-validation" novalidate>
+            {% csrf_token %}
+            <div class="mb-3"><label class="form-label">Username or Email</label>{{ form.username }}</div>
+            <div class="mb-3"><label class="form-label">Password</label>{{ form.password }}</div>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <div class="form-check">
+                {{ form.remember_me }}
+                <label class="form-check-label small" for="{{ form.remember_me.id_for_label }}">Remember me</label>
+              </div>
+              <a href="{% url 'accounts:password_reset' %}" class="small text-orange">Forgot password?</a>
+            </div>
+            <input type="hidden" name="next" value="{{ request.GET.next }}">
+            <button type="submit" class="btn btn-shoeland w-100">Login <i class="bi bi-box-arrow-in-right"></i></button>
+          </form>
+          <p class="text-center mt-3 mb-0 small">New to Shoeland? <a href="{% url 'accounts:register' %}" class="text-orange fw-semibold">Create an account</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

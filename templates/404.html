@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Page Not Found | {{ SITE_NAME }}{% endblock %}
+{% block content %}
+<section class="section text-center" style="min-height:60vh; display:flex; align-items:center;">
+  <div class="container">
+    <h1 class="display-font" style="font-size:8rem; color:var(--c-orange);">404</h1>
+    <h2 class="mb-3">Looks Like This Page Took A Wrong Turn</h2>
+    <p class="text-muted mb-4">The page you're looking for doesn't exist or has been moved.</p>
+    <a href="{% url 'core:home' %}" class="btn btn-shoeland">Back To Home <i class="bi bi-arrow-right"></i></a>
+  </div>
+</section>
+{% endblock %}

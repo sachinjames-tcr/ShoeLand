@@ -1,0 +1,54 @@
+{% load humanize %}
+<div class="product-card">
+  <a href="{{ product.get_absolute_url }}" class="product-thumb d-block">
+    {% if product.images.first %}
+      <img src="{{ product.images.first.image.url }}" alt="{{ product.name }}" loading="lazy">
+    {% else %}
+      <img src="https://placehold.co/500x500/0d0d0d/f7f6f3?text=SHOELAND" alt="{{ product.name }}" loading="lazy">
+    {% endif %}
+    {% if product.discount_percent > 0 %}
+      <span class="product-badge">-{{ product.discount_percent }}%</span>
+    {% elif not product.in_stock %}
+      <span class="product-badge out">Sold Out</span>
+    {% elif product.is_new_arrival %}
+      <span class="product-badge">New</span>
+    {% endif %}
+  </a>
+
+  {% if user.is_authenticated %}
+    <button class="wishlist-toggle ajax-wishlist-toggle {% if product.id in wishlist_ids %}active{% endif %}" data-product-id="{{ product.id }}" title="Add to wishlist">
+      <i class="bi bi-heart{% if product.id in wishlist_ids %}-fill{% endif %}"></i>
+    </button>
+  {% else %}
+    <a href="{% url 'accounts:login' %}" class="wishlist-toggle" title="Login to add to wishlist"><i class="bi bi-heart"></i></a>
+  {% endif %}
+
+  <div class="product-body">
+    <div class="p-cat">{{ product.brand.name }}</div>
+    <a href="{{ product.get_absolute_url }}"><p class="p-name">{{ product.name }}</p></a>
+    <div class="rating-stars mb-1">
+      {% for i in "12345" %}
+        <i class="bi bi-star{% if forloop.counter <= product.rating %}-fill{% endif %}"></i>
+      {% endfor %}
+      <span class="text-muted small">({{ product.rating_count }})</span>
+    </div>
+    <div class="product-price">
+      {% if product.discount_price %}
+        <span class="old">₹{{ product.price|intcomma }}</span>
+        <span class="now">₹{{ product.discount_price|intcomma }}</span>
+      {% else %}
+        <span class="now">₹{{ product.price|intcomma }}</span>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="product-quick-add">
+    {% if product.in_stock %}
+      <button class="btn btn-shoeland btn-sm w-100 ajax-add-to-cart" data-product-id="{{ product.id }}">
+        <i class="bi bi-bag-plus"></i> Add to Cart
+      </button>
+    {% else %}
+      <button class="btn btn-secondary btn-sm w-100" disabled>Out of Stock</button>
+    {% endif %}
+  </div>
+</div>

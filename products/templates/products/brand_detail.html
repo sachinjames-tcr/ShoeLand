@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}{{ brand.name }} | {{ SITE_NAME }}{% endblock %}
+{% block content %}
+<div class="breadcrumb-bar">
+  <div class="container">
+    <h1>{{ brand.name }}</h1>
+    <nav aria-label="breadcrumb"><ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="{% url 'core:home' %}">Home</a></li>
+      <li class="breadcrumb-item"><a href="{% url 'products:brands' %}">Brands</a></li>
+      <li class="breadcrumb-item active">{{ brand.name }}</li>
+    </ol></nav>
+  </div>
+</div>
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3">{% include "partials/filters_sidebar.html" %}</div>
+      <div class="col-lg-9">
+        {% include "partials/sort_toolbar.html" %}
+        <div class="row g-4">
+          {% for product in products %}
+            <div class="col-6 col-md-4">{% include "partials/product_card.html" %}</div>
+          {% empty %}
+            <div class="col-12 text-center py-5"><p class="text-muted">No products found for this brand yet.</p></div>
+          {% endfor %}
+        </div>
+        {% include "partials/pagination.html" %}
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

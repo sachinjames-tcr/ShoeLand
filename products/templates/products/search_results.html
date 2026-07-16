@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block title %}Search Results | {{ SITE_NAME }}{% endblock %}
+{% block content %}
+<div class="breadcrumb-bar">
+  <div class="container">
+    <h1>{% if query %}Results for "{{ query }}"{% else %}Search{% endif %}</h1>
+    <nav aria-label="breadcrumb"><ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="{% url 'core:home' %}">Home</a></li>
+      <li class="breadcrumb-item active">Search</li>
+    </ol></nav>
+  </div>
+</div>
+<section class="section">
+  <div class="container">
+    <form method="get" class="mb-4">
+      <div class="input-group" style="max-width:500px;">
+        <input type="search" name="q" class="form-control" value="{{ query }}" placeholder="Search for shoes, brands...">
+        <button class="btn btn-shoeland" type="submit"><i class="bi bi-search"></i></button>
+      </div>
+    </form>
+    {% if query %}
+    <div class="row">
+      <div class="col-lg-3">{% include "partials/filters_sidebar.html" %}</div>
+      <div class="col-lg-9">
+        {% include "partials/sort_toolbar.html" %}
+        <div class="row g-4">
+          {% for product in products %}
+            <div class="col-6 col-md-4">{% include "partials/product_card.html" %}</div>
+          {% empty %}
+            <div class="col-12 text-center py-5">
+              <i class="bi bi-search fs-1 text-muted"></i>
+              <p class="text-muted mt-2">No products found for "{{ query }}".</p>
+            </div>
+          {% endfor %}
+        </div>
+        {% include "partials/pagination.html" %}
+      </div>
+    </div>
+    {% endif %}
+  </div>
+</section>
+{% endblock %}

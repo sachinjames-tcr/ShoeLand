@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block title %}Brands | {{ SITE_NAME }}{% endblock %}
+{% block content %}
+<div class="breadcrumb-bar">
+  <div class="container">
+    <h1>Shop By Brand</h1>
+    <nav aria-label="breadcrumb"><ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="{% url 'core:home' %}">Home</a></li>
+      <li class="breadcrumb-item active">Brands</li>
+    </ol></nav>
+  </div>
+</div>
+<section class="section">
+  <div class="container">
+    <div class="row g-4">
+      {% for brand in brands %}
+        <div class="col-6 col-md-3">
+          <a href="{{ brand.get_absolute_url }}" class="brand-tile" style="height:130px;">
+            {% if brand.logo %}<img src="{{ brand.logo.url }}" alt="{{ brand.name }}">{% else %}<span class="fw-bold fs-5">{{ brand.name }}</span>{% endif %}
+          </a>
+          <p class="text-center small text-muted mt-1">{{ brand.products.count }} products</p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endblock %}

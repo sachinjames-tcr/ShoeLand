@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% load humanize %}
+{% block title %}My Orders | {{ SITE_NAME }}{% endblock %}
+{% block content %}
+<div class="breadcrumb-bar">
+  <div class="container">
+    <h1>My Orders</h1>
+    <nav aria-label="breadcrumb"><ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="{% url 'core:home' %}">Home</a></li>
+      <li class="breadcrumb-item active">My Orders</li>
+    </ol></nav>
+  </div>
+</div>
+<section class="section">
+  <div class="container">
+    {% if orders %}
+    <div class="table-responsive">
+      <table class="table align-middle">
+        <thead class="text-muted small text-uppercase">
+          <tr><th>Order #</th><th>Date</th><th>Items</th><th>Total</th><th>Payment</th><th>Status</th><th></th></tr>
+        </thead>
+        <tbody>
+          {% for order in orders %}
+          <tr>
+            <td class="fw-semibold">{{ order.order_number }}</td>
+            <td>{{ order.created_at|date:"d M Y" }}</td>
+            <td>{{ order.items.count }} item{{ order.items.count|pluralize }}</td>
+            <td>₹{{ order.grand_total|intcomma }}</td>
+            <td class="text-capitalize">{{ order.get_payment_method_display }}</td>
+            <td><span class="status-pill status-{{ order.status }}">{{ order.get_status_display }}</span></td>
+            <td><a href="{% url 'orders:order_detail' order.order_number %}" class="btn btn-shoeland-outline btn-sm">View</a></td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    {% else %}
+      <div class="text-center py-5">
+        <i class="bi bi-bag" style="font-size:4rem; color:var(--c-steel);"></i>
+        <h4 class="mt-3">No orders yet</h4>
+        <a href="{% url 'products:shop' %}" class="btn btn-shoeland mt-2">Start Shopping</a>
+      </div>
+    {% endif %}
+  </div>
+</section>
+{% endblock %}

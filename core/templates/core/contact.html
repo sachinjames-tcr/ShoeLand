@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+{% block title %}Contact Us | {{ SITE_NAME }}{% endblock %}
+{% block content %}
+
+<div class="breadcrumb-bar">
+  <div class="container">
+    <h1>Contact Us</h1>
+    <nav aria-label="breadcrumb"><ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="{% url 'core:home' %}">Home</a></li>
+      <li class="breadcrumb-item active">Contact</li>
+    </ol></nav>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+    <div class="row g-5">
+      <div class="col-lg-5">
+        <h2>Get In Touch</h2>
+        <p class="text-muted">Have a question about an order, a product, or a partnership? We'd love to hear from you.</p>
+        <div class="d-flex gap-3 mb-3">
+          <i class="bi bi-geo-alt text-orange fs-4"></i>
+          <div><strong>Address</strong><br><span class="text-muted">MG Road, Thrissur, Kerala, India</span></div>
+        </div>
+        <div class="d-flex gap-3 mb-3">
+          <i class="bi bi-telephone text-orange fs-4"></i>
+          <div><strong>Phone</strong><br><span class="text-muted">+91 98765 43210</span></div>
+        </div>
+        <div class="d-flex gap-3 mb-3">
+          <i class="bi bi-envelope text-orange fs-4"></i>
+          <div><strong>Email</strong><br><span class="text-muted">support@shoeland.example.com</span></div>
+        </div>
+      </div>
+      <div class="col-lg-7">
+        <div class="card-shoeland p-4 p-md-5">
+          <form method="post" class="row g-3 needs-validation" novalidate>
+            {% csrf_token %}
+            <div class="col-md-6">
+              <label class="form-label">Name</label>
+              {{ form.name }}
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">Email</label>
+              {{ form.email }}
+            </div>
+            <div class="col-12">
+              <label class="form-label">Subject</label>
+              {{ form.subject }}
+            </div>
+            <div class="col-12">
+              <label class="form-label">Message</label>
+              {{ form.message }}
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-shoeland">Send Message <i class="bi bi-send"></i></button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock %}

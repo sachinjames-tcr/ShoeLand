@@ -1,0 +1,74 @@
+<div class="filter-box">
+  <h6><i class="bi bi-funnel"></i> Categories</h6>
+  {% for cat in categories %}
+    <div class="form-check">
+      <input class="form-check-input filter-checkbox" type="checkbox" name="category" value="{{ cat.slug }}" id="cat-{{ cat.id }}" {% if cat.slug in selected_categories %}checked{% endif %}>
+      <label class="form-check-label" for="cat-{{ cat.id }}">{{ cat.name }}</label>
+    </div>
+  {% endfor %}
+</div>
+
+<div class="filter-box">
+  <h6><i class="bi bi-tags"></i> Brands</h6>
+  {% for brand in brands %}
+    <div class="form-check">
+      <input class="form-check-input filter-checkbox" type="checkbox" name="brand" value="{{ brand.slug }}" id="brand-{{ brand.id }}" {% if brand.slug in selected_brands %}checked{% endif %}>
+      <label class="form-check-label" for="brand-{{ brand.id }}">{{ brand.name }}</label>
+    </div>
+  {% endfor %}
+</div>
+
+<div class="filter-box">
+  <h6><i class="bi bi-currency-rupee"></i> Price Range</h6>
+  <form method="get" class="d-flex gap-2 align-items-center">
+    <input type="number" name="price_min" class="form-control form-control-sm" placeholder="Min" value="{{ request.GET.price_min }}">
+    <span>-</span>
+    <input type="number" name="price_max" class="form-control form-control-sm" placeholder="Max" value="{{ request.GET.price_max }}">
+    <button class="btn btn-shoeland-outline btn-sm" type="submit">Go</button>
+  </form>
+</div>
+
+<div class="filter-box">
+  <h6><i class="bi bi-star"></i> Minimum Rating</h6>
+  {% for r in "4321" %}
+    <div class="form-check">
+      <input class="form-check-input filter-radio" type="radio" name="rating" value="{{ r }}" id="rating-{{ r }}" {% if request.GET.rating == r %}checked{% endif %}>
+      <label class="form-check-label" for="rating-{{ r }}">{{ r }}★ &amp; above</label>
+    </div>
+  {% endfor %}
+</div>
+
+<div class="filter-box">
+  <h6><i class="bi bi-box-seam"></i> Availability</h6>
+  <div class="form-check">
+    <input class="form-check-input filter-radio" type="radio" name="availability" value="in_stock" id="avail-in" {% if request.GET.availability == "in_stock" %}checked{% endif %}>
+    <label class="form-check-label" for="avail-in">In Stock</label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input filter-radio" type="radio" name="availability" value="out_of_stock" id="avail-out" {% if request.GET.availability == "out_of_stock" %}checked{% endif %}>
+    <label class="form-check-label" for="avail-out">Out of Stock</label>
+  </div>
+</div>
+
+<a href="{{ request.path }}" class="btn btn-shoeland-outline btn-sm w-100">Clear Filters</a>
+
+<script>
+document.querySelectorAll('.filter-checkbox, .filter-radio').forEach(function (el) {
+  el.addEventListener('change', function () {
+    const params = new URLSearchParams(window.location.search);
+    document.querySelectorAll('.filter-checkbox:checked').forEach(function(){});
+    // Rebuild params from all filter inputs on the page
+    const form = new URLSearchParams();
+    document.querySelectorAll('input[name="category"]:checked').forEach(i => form.append('category', i.value));
+    document.querySelectorAll('input[name="brand"]:checked').forEach(i => form.append('brand', i.value));
+    const rating = document.querySelector('input[name="rating"]:checked');
+    if (rating) form.set('rating', rating.value);
+    const availability = document.querySelector('input[name="availability"]:checked');
+    if (availability) form.set('availability', availability.value);
+    if (params.get('sort')) form.set('sort', params.get('sort'));
+    if (params.get('price_min')) form.set('price_min', params.get('price_min'));
+    if (params.get('price_max')) form.set('price_max', params.get('price_max'));
+    window.location.search = form.toString();
+  });
+});
+</script>

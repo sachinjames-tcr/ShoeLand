@@ -1,0 +1,5637 @@
+[
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$9CfUQ1x04PXd1uUf9gXcF7$PGnT3ZoSfrb3edyKTDBdLp13lk1IEZgTtAEgGFoJTAg=",
+    "last_login": "2026-07-11T13:07:10.505Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@shoeland.example.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2026-07-11T13:06:39.095Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$aJEmULx3StvVOD8qONPEza$YarHlEIG36KBEI6V1iKS5sA3dx0IK2tu5VMYto4KXCc=",
+    "last_login": "2026-07-11T13:08:16.658Z",
+    "is_superuser": false,
+    "username": "customer1",
+    "first_name": "Kiran",
+    "last_name": "Kumar",
+    "email": "customer1@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-07-11T13:07:53.302Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$5dK9HrVsIxwhd9FUME20iV$qta4X9Ys0IG3v1PZ56d6MbI+P9+jGHWxRyFQoqvagn0=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "customer2",
+    "first_name": "Priya",
+    "last_name": "Varma",
+    "email": "customer2@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-07-11T13:07:53.905Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$IxAb0gYsJKvYVQm8K99lQ5$/jqoYKQ05uhIr27nssaiLYvKJTLqg92UK5Fl4lLd0Dk=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "customer3",
+    "first_name": "Arjun",
+    "last_name": "Menon",
+    "email": "customer3@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-07-11T13:07:54.504Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$qd1qs9RONRaqtdAFIqRPtD$1EQ4nuRIbBcrZkEd8qs7BFGuqysf+jDHmIUFuyq40zU=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "customer4",
+    "first_name": "Rahul",
+    "last_name": "Varma",
+    "email": "customer4@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-07-11T13:07:55.107Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$fRCb563bZZ4Zx1OPLSK4Jy$F3QllET/9whoRhxOxKl9QaPItOYAjFzwKtBFCJTU/cI=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "customer5",
+    "first_name": "Anand",
+    "last_name": "Nair",
+    "email": "customer5@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-07-11T13:07:55.707Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 7,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$b1Qw5Zs7UYvnr9pFbAwD3h$jIUL8lGXIYs+CH+8U9R0R5f/qEIy3rQ/k/ZXEl2/bWc=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "customer6",
+    "first_name": "Sneha",
+    "last_name": "Nair",
+    "email": "customer6@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-07-11T13:07:56.304Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 8,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$r4NuOH6XBKpzXhjCqxsZUO$SYIVTK/KdGp6k8EQrfCcBVQ/1Zspc6JVY6/vKUFnFNo=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "customer7",
+    "first_name": "Vishnu",
+    "last_name": "Kumar",
+    "email": "customer7@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-07-11T13:07:56.900Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 9,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$iIpM3u8UP1uyW54W98Z2DH$vinajTbgd5IAcnR219Pq4wneHHt9rzroMiamADeqcK8=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "customer8",
+    "first_name": "Athira",
+    "last_name": "Varma",
+    "email": "customer8@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-07-11T13:07:57.498Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 10,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$azNBUNuMwPPBTftAJorDim$CPEYVuU6xJlmo9NtjYBQ4AaWUY5pgAjfwrODyJhzukQ=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "customer9",
+    "first_name": "Athira",
+    "last_name": "Menon",
+    "email": "customer9@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-07-11T13:07:58.093Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 11,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$svZ9Hc8SxBLbgXHsPZpHU9$6qK0hIY555FEBJUyAnCTMjK8Bc4sLixCTWxXNQ4e7dQ=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "customer10",
+    "first_name": "Vishnu",
+    "last_name": "Kumar",
+    "email": "customer10@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-07-11T13:07:58.701Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 12,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$Cvuj6h0ImoMLMv0Q3emKkO$zRI1yKdfy4ViRddWDJ53qArEWDuMULXel27oMDG1D4Y=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "customer11",
+    "first_name": "Meera",
+    "last_name": "Kumar",
+    "email": "customer11@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-07-11T13:07:59.290Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 13,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$z8kytueF5Vf6ZsoE11ilo7$TuDKvCiovhdBRHIpmxg3yZLEotfSKRVbrmEn9g5vfp8=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "customer12",
+    "first_name": "Anand",
+    "last_name": "Varma",
+    "email": "customer12@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-07-11T13:07:59.885Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 14,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$I8TBWstg2U5EOvjqDGrAne$cRhX7IqxPzFFT4Cnno+0Fp6ET6I+NeDiB3lQx6B7em8=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "customer13",
+    "first_name": "Kiran",
+    "last_name": "Pillai",
+    "email": "customer13@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-07-11T13:08:00.490Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 15,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$oyzToe7F2NyLM9S6jcOG9M$SuN7UVldfj/LcyLnqGC3xGOr5GuAzkp9ntgwy7V67WI=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "customer14",
+    "first_name": "Athira",
+    "last_name": "Varma",
+    "email": "customer14@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-07-11T13:08:01.153Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 16,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$XFS8Fqk0OO73kJzovQS6RN$0ksE4CPN8AxLRAyyCiRaiRUyZJuP1SEQERzF8O8IfHw=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "customer15",
+    "first_name": "Arjun",
+    "last_name": "Varma",
+    "email": "customer15@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-07-11T13:08:01.770Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 17,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$HBdv7HW3FjrwFd46PgIcAl$RFr4AOC2j+/ZIiQK5mLnGzJq2/BU9E3FucXd4KA1wLA=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "customer16",
+    "first_name": "Priya",
+    "last_name": "Menon",
+    "email": "customer16@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-07-11T13:08:02.378Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 18,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$pzhE2oMFXshSuMUQ8uVkIX$YW5yYTKSScPFbHh5X0+wbCEL2xnsLjQDmJToP9ctv2U=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "customer17",
+    "first_name": "Sneha",
+    "last_name": "Pillai",
+    "email": "customer17@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-07-11T13:08:02.992Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 19,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$CFtX7Fz0PNNdo77idqX6ee$JaHJuNW93KdexEefvmV+KB4+J2QOmaL8iohrGgwYAys=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "customer18",
+    "first_name": "Priya",
+    "last_name": "Menon",
+    "email": "customer18@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-07-11T13:08:03.591Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 20,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$Nkt1ODJi8bGJdUSfpHyxyH$lSOz+TfOhetPJtnZds+m5BD3gHT/lNAgHz/Yvt51Y6o=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "customer19",
+    "first_name": "Sneha",
+    "last_name": "Menon",
+    "email": "customer19@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-07-11T13:08:04.184Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 21,
+  "fields": {
+    "password": "pbkdf2_sha256$870000$3Eqnxrk9NWIxWFC9LYtOGP$ctf3+gAWgohjjmEz4/+eeQR9U43Q5F6fzdxxRkA8tAg=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "customer20",
+    "first_name": "Vishnu",
+    "last_name": "Nair",
+    "email": "customer20@example.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-07-11T13:08:04.780Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "core.banner",
+  "pk": 1,
+  "fields": {
+    "title": "Step Into Your Power",
+    "subtitle": "Premium sneakers built for everyday greatness.",
+    "image": "banners/banner-0.jpg",
+    "button_text": "Shop Sneakers",
+    "button_link": "/shop/",
+    "is_active": true,
+    "order": 0
+  }
+},
+{
+  "model": "core.banner",
+  "pk": 2,
+  "fields": {
+    "title": "Run Further, Feel Lighter",
+    "subtitle": "Discover our new running shoe collection.",
+    "image": "banners/banner-1.jpg",
+    "button_text": "Shop Running",
+    "button_link": "/shop/",
+    "is_active": true,
+    "order": 1
+  }
+},
+{
+  "model": "core.banner",
+  "pk": 3,
+  "fields": {
+    "title": "Boots Built To Last",
+    "subtitle": "Rugged, weatherproof, and always in style.",
+    "image": "banners/banner-2.jpg",
+    "button_text": "Shop Boots",
+    "button_link": "/shop/",
+    "is_active": true,
+    "order": 2
+  }
+},
+{
+  "model": "core.testimonial",
+  "pk": 1,
+  "fields": {
+    "name": "Arjun Menon",
+    "designation": "Marathon Runner",
+    "photo": "profiles/arjun-menon.jpg",
+    "message": "Shoeland's running shoes changed my training completely. Lightweight and supportive.",
+    "rating": 5,
+    "is_active": true
+  }
+},
+{
+  "model": "core.testimonial",
+  "pk": 2,
+  "fields": {
+    "name": "Priya Nair",
+    "designation": "Fashion Blogger",
+    "photo": "profiles/priya-nair.jpg",
+    "message": "The sneaker collection is unmatched — always on trend and true to size.",
+    "rating": 5,
+    "is_active": true
+  }
+},
+{
+  "model": "core.testimonial",
+  "pk": 3,
+  "fields": {
+    "name": "Kiran Das",
+    "designation": "College Student",
+    "photo": "profiles/kiran-das.jpg",
+    "message": "Affordable, comfortable, and stylish. My whole friend group shops here now.",
+    "rating": 4,
+    "is_active": true
+  }
+},
+{
+  "model": "core.instagrampost",
+  "pk": 1,
+  "fields": {
+    "image": "banners/instagram/insta-0.jpg",
+    "link": "",
+    "order": 0
+  }
+},
+{
+  "model": "core.instagrampost",
+  "pk": 2,
+  "fields": {
+    "image": "banners/instagram/insta-1.jpg",
+    "link": "",
+    "order": 1
+  }
+},
+{
+  "model": "core.instagrampost",
+  "pk": 3,
+  "fields": {
+    "image": "banners/instagram/insta-2.jpg",
+    "link": "",
+    "order": 2
+  }
+},
+{
+  "model": "core.instagrampost",
+  "pk": 4,
+  "fields": {
+    "image": "banners/instagram/insta-3.jpg",
+    "link": "",
+    "order": 3
+  }
+},
+{
+  "model": "core.instagrampost",
+  "pk": 5,
+  "fields": {
+    "image": "banners/instagram/insta-4.jpg",
+    "link": "",
+    "order": 4
+  }
+},
+{
+  "model": "core.instagrampost",
+  "pk": 6,
+  "fields": {
+    "image": "banners/instagram/insta-5.jpg",
+    "link": "",
+    "order": 5
+  }
+},
+{
+  "model": "products.category",
+  "pk": 1,
+  "fields": {
+    "name": "Sneakers",
+    "slug": "sneakers",
+    "description": "Shop the best sneakers at Shoeland.",
+    "image": "products/categories/sneakers.jpg",
+    "is_active": true
+  }
+},
+{
+  "model": "products.category",
+  "pk": 2,
+  "fields": {
+    "name": "Running Shoes",
+    "slug": "running-shoes",
+    "description": "Shop the best running shoes at Shoeland.",
+    "image": "products/categories/running-shoes.jpg",
+    "is_active": true
+  }
+},
+{
+  "model": "products.category",
+  "pk": 3,
+  "fields": {
+    "name": "Sports Shoes",
+    "slug": "sports-shoes",
+    "description": "Shop the best sports shoes at Shoeland.",
+    "image": "products/categories/sports-shoes.jpg",
+    "is_active": true
+  }
+},
+{
+  "model": "products.category",
+  "pk": 4,
+  "fields": {
+    "name": "Casual Shoes",
+    "slug": "casual-shoes",
+    "description": "Shop the best casual shoes at Shoeland.",
+    "image": "products/categories/casual-shoes.jpg",
+    "is_active": true
+  }
+},
+{
+  "model": "products.category",
+  "pk": 5,
+  "fields": {
+    "name": "Boots",
+    "slug": "boots",
+    "description": "Shop the best boots at Shoeland.",
+    "image": "products/categories/boots.jpg",
+    "is_active": true
+  }
+},
+{
+  "model": "products.category",
+  "pk": 6,
+  "fields": {
+    "name": "Sandals",
+    "slug": "sandals",
+    "description": "Shop the best sandals at Shoeland.",
+    "image": "products/categories/sandals.jpg",
+    "is_active": true
+  }
+},
+{
+  "model": "products.category",
+  "pk": 7,
+  "fields": {
+    "name": "Slippers",
+    "slug": "slippers",
+    "description": "Shop the best slippers at Shoeland.",
+    "image": "products/categories/slippers.jpg",
+    "is_active": true
+  }
+},
+{
+  "model": "products.category",
+  "pk": 8,
+  "fields": {
+    "name": "Formal Shoes",
+    "slug": "formal-shoes",
+    "description": "Shop the best formal shoes at Shoeland.",
+    "image": "products/categories/formal-shoes.jpg",
+    "is_active": true
+  }
+},
+{
+  "model": "products.category",
+  "pk": 9,
+  "fields": {
+    "name": "Women's Shoes",
+    "slug": "womens-shoes",
+    "description": "Shop the best women's shoes at Shoeland.",
+    "image": "products/categories/womens-shoes.jpg",
+    "is_active": true
+  }
+},
+{
+  "model": "products.category",
+  "pk": 10,
+  "fields": {
+    "name": "Men's Shoes",
+    "slug": "mens-shoes",
+    "description": "Shop the best men's shoes at Shoeland.",
+    "image": "products/categories/mens-shoes.jpg",
+    "is_active": true
+  }
+},
+{
+  "model": "products.category",
+  "pk": 11,
+  "fields": {
+    "name": "Kids Shoes",
+    "slug": "kids-shoes",
+    "description": "Shop the best kids shoes at Shoeland.",
+    "image": "products/categories/kids-shoes.jpg",
+    "is_active": true
+  }
+},
+{
+  "model": "products.brand",
+  "pk": 1,
+  "fields": {
+    "name": "Nike",
+    "slug": "nike",
+    "logo": "products/brands/nike.jpg",
+    "description": "Nike — quality footwear trusted worldwide.",
+    "is_active": true
+  }
+},
+{
+  "model": "products.brand",
+  "pk": 2,
+  "fields": {
+    "name": "Adidas",
+    "slug": "adidas",
+    "logo": "products/brands/adidas.jpg",
+    "description": "Adidas — quality footwear trusted worldwide.",
+    "is_active": true
+  }
+},
+{
+  "model": "products.brand",
+  "pk": 3,
+  "fields": {
+    "name": "Puma",
+    "slug": "puma",
+    "logo": "products/brands/puma.jpg",
+    "description": "Puma — quality footwear trusted worldwide.",
+    "is_active": true
+  }
+},
+{
+  "model": "products.brand",
+  "pk": 4,
+  "fields": {
+    "name": "Reebok",
+    "slug": "reebok",
+    "logo": "products/brands/reebok.jpg",
+    "description": "Reebok — quality footwear trusted worldwide.",
+    "is_active": true
+  }
+},
+{
+  "model": "products.brand",
+  "pk": 5,
+  "fields": {
+    "name": "Skechers",
+    "slug": "skechers",
+    "logo": "products/brands/skechers.jpg",
+    "description": "Skechers — quality footwear trusted worldwide.",
+    "is_active": true
+  }
+},
+{
+  "model": "products.brand",
+  "pk": 6,
+  "fields": {
+    "name": "Converse",
+    "slug": "converse",
+    "logo": "products/brands/converse.jpg",
+    "description": "Converse — quality footwear trusted worldwide.",
+    "is_active": true
+  }
+},
+{
+  "model": "products.brand",
+  "pk": 7,
+  "fields": {
+    "name": "New Balance",
+    "slug": "new-balance",
+    "logo": "products/brands/new-balance.jpg",
+    "description": "New Balance — quality footwear trusted worldwide.",
+    "is_active": true
+  }
+},
+{
+  "model": "products.brand",
+  "pk": 8,
+  "fields": {
+    "name": "ASICS",
+    "slug": "asics",
+    "logo": "products/brands/asics.jpg",
+    "description": "ASICS — quality footwear trusted worldwide.",
+    "is_active": true
+  }
+},
+{
+  "model": "products.brand",
+  "pk": 9,
+  "fields": {
+    "name": "Woodland",
+    "slug": "woodland",
+    "logo": "products/brands/woodland.jpg",
+    "description": "Woodland — quality footwear trusted worldwide.",
+    "is_active": true
+  }
+},
+{
+  "model": "products.brand",
+  "pk": 10,
+  "fields": {
+    "name": "Bata",
+    "slug": "bata",
+    "logo": "products/brands/bata.jpg",
+    "description": "Bata — quality footwear trusted worldwide.",
+    "is_active": true
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1,
+  "fields": {
+    "name": "Woodland Flex Boost 1",
+    "slug": "woodland-flex-boost-1",
+    "sku": "SHO-1000",
+    "category": 11,
+    "brand": 9,
+    "price": "5999.00",
+    "discount_price": null,
+    "description": "The Woodland Flex Boost 1 combines premium materials with all-day comfort. Engineered for kids shoes enthusiasts who refuse to compromise on style or performance.",
+    "features": "Breathable mesh upper\nCushioned midsole for all-day comfort\nDurable rubber outsole\nLightweight design\nReinforced heel support",
+    "specifications": "Material: Mesh & Synthetic\nSole: Rubber\nClosure: Lace-up\nWeight: 323g\nCare: Wipe with a damp cloth",
+    "stock": 0,
+    "rating": "4.50",
+    "rating_count": 2,
+    "status": "active",
+    "is_featured": false,
+    "is_best_seller": true,
+    "is_new_arrival": false,
+    "is_trending": false,
+    "sold_count": 110,
+    "created_at": "2026-07-11T13:07:51.624Z",
+    "updated_at": "2026-07-11T13:07:51.624Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 2,
+  "fields": {
+    "name": "Adidas Storm Trekker 2",
+    "slug": "adidas-storm-trekker-2",
+    "sku": "SHO-1001",
+    "category": 7,
+    "brand": 2,
+    "price": "3499.00",
+    "discount_price": null,
+    "description": "The Adidas Storm Trekker 2 combines premium materials with all-day comfort. Engineered for slippers enthusiasts who refuse to compromise on style or performance.",
+    "features": "Breathable mesh upper\nCushioned midsole for all-day comfort\nDurable rubber outsole\nLightweight design\nReinforced heel support",
+    "specifications": "Material: Mesh & Synthetic\nSole: Rubber\nClosure: Lace-up\nWeight: 313g\nCare: Wipe with a damp cloth",
+    "stock": 20,
+    "rating": "0.00",
+    "rating_count": 0,
+    "status": "active",
+    "is_featured": false,
+    "is_best_seller": false,
+    "is_new_arrival": false,
+    "is_trending": false,
+    "sold_count": 185,
+    "created_at": "2026-07-11T13:07:51.662Z",
+    "updated_at": "2026-07-11T13:07:51.662Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 3,
+  "fields": {
+    "name": "Reebok Swift Court 3",
+    "slug": "reebok-swift-court-3",
+    "sku": "SHO-1002",
+    "category": 1,
+    "brand": 4,
+    "price": "1999.00",
+    "discount_price": null,
+    "description": "The Reebok Swift Court 3 combines premium materials with all-day comfort. Engineered for sneakers enthusiasts who refuse to compromise on style or performance.",
+    "features": "Breathable mesh upper\nCushioned midsole for all-day comfort\nDurable rubber outsole\nLightweight design\nReinforced heel support",
+    "specifications": "Material: Mesh & Synthetic\nSole: Rubber\nClosure: Lace-up\nWeight: 330g\nCare: Wipe with a damp cloth",
+    "stock": 0,
+    "rating": "4.67",
+    "rating_count": 3,
+    "status": "active",
+    "is_featured": false,
+    "is_best_seller": false,
+    "is_new_arrival": false,
+    "is_trending": true,
+    "sold_count": 181,
+    "created_at": "2026-07-11T13:07:51.698Z",
+    "updated_at": "2026-07-11T13:07:51.698Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 4,
+  "fields": {
+    "name": "Puma Ace Boost 4",
+    "slug": "puma-ace-boost-4",
+    "sku": "SHO-1003",
+    "category": 10,
+    "brand": 3,
+    "price": "2499.00",
+    "discount_price": null,
+    "description": "The Puma Ace Boost 4 combines premium materials with all-day comfort. Engineered for men's shoes enthusiasts who refuse to compromise on style or performance.",
+    "features": "Breathable mesh upper\nCushioned midsole for all-day comfort\nDurable rubber outsole\nLightweight design\nReinforced heel support",
+    "specifications": "Material: Mesh & Synthetic\nSole: Rubber\nClosure: Lace-up\nWeight: 254g\nCare: Wipe with a damp cloth",
+    "stock": 50,
+    "rating": "4.00",
+    "rating_count": 1,
+    "status": "active",
+    "is_featured": false,
+    "is_best_seller": false,
+    "is_new_arrival": false,
+    "is_trending": false,
+    "sold_count": 28,
+    "created_at": "2026-07-11T13:07:51.751Z",
+    "updated_at": "2026-07-11T13:07:51.751Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 5,
+  "fields": {
+    "name": "Skechers Pro Boost 5",
+    "slug": "skechers-pro-boost-5",
+    "sku": "SHO-1004",
+    "category": 7,
+    "brand": 5,
+    "price": "3999.00",
+    "discount_price": "3199.00",
+    "description": "The Skechers Pro Boost 5 combines premium materials with all-day comfort. Engineered for slippers enthusiasts who refuse to compromise on style or performance.",
+    "features": "Breathable mesh upper\nCushioned midsole for all-day comfort\nDurable rubber outsole\nLightweight design\nReinforced heel support",
+    "specifications": "Material: Mesh & Synthetic\nSole: Rubber\nClosure: Lace-up\nWeight: 283g\nCare: Wipe with a damp cloth",
+    "stock": 20,
+    "rating": "5.00",
+    "rating_count": 1,
+    "status": "active",
+    "is_featured": false,
+    "is_best_seller": false,
+    "is_new_arrival": true,
+    "is_trending": true,
+    "sold_count": 287,
+    "created_at": "2026-07-11T13:07:51.784Z",
+    "updated_at": "2026-07-11T13:07:51.784Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 6,
+  "fields": {
+    "name": "Bata Flex Trekker 6",
+    "slug": "bata-flex-trekker-6",
+    "sku": "SHO-1005",
+    "category": 7,
+    "brand": 10,
+    "price": "2999.00",
+    "discount_price": null,
+    "description": "The Bata Flex Trekker 6 combines premium materials with all-day comfort. Engineered for slippers enthusiasts who refuse to compromise on style or performance.",
+    "features": "Breathable mesh upper\nCushioned midsole for all-day comfort\nDurable rubber outsole\nLightweight design\nReinforced heel support",
+    "specifications": "Material: Mesh & Synthetic\nSole: Rubber\nClosure: Lace-up\nWeight: 237g\nCare: Wipe with a damp cloth",
+    "stock": 35,
+    "rating": "4.00",
+    "rating_count": 1,
+    "status": "active",
+    "is_featured": false,
+    "is_best_seller": false,
+    "is_new_arrival": false,
+    "is_trending": true,
+    "sold_count": 81,
+    "created_at": "2026-07-11T13:07:51.815Z",
+    "updated_at": "2026-07-11T13:07:51.815Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 7,
+  "fields": {
+    "name": "New Balance Ghost Sprint 7",
+    "slug": "new-balance-ghost-sprint-7",
+    "sku": "SHO-1006",
+    "category": 7,
+    "brand": 7,
+    "price": "6999.00",
+    "discount_price": "5599.00",
+    "description": "The New Balance Ghost Sprint 7 combines premium materials with all-day comfort. Engineered for slippers enthusiasts who refuse to compromise on style or performance.",
+    "features": "Breathable mesh upper\nCushioned midsole for all-day comfort\nDurable rubber outsole\nLightweight design\nReinforced heel support",
+    "specifications": "Material: Mesh & Synthetic\nSole: Rubber\nClosure: Lace-up\nWeight: 290g\nCare: Wipe with a damp cloth",
+    "stock": 0,
+    "rating": "3.00",
+    "rating_count": 1,
+    "status": "active",
+    "is_featured": false,
+    "is_best_seller": true,
+    "is_new_arrival": false,
+    "is_trending": false,
+    "sold_count": 174,
+    "created_at": "2026-07-11T13:07:51.845Z",
+    "updated_at": "2026-07-11T13:07:51.845Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 8,
+  "fields": {
+    "name": "ASICS Air Court 8",
+    "slug": "asics-air-court-8",
+    "sku": "SHO-1007",
+    "category": 3,
+    "brand": 8,
+    "price": "6999.00",
+    "discount_price": null,
+    "description": "The ASICS Air Court 8 combines premium materials with all-day comfort. Engineered for sports shoes enthusiasts who refuse to compromise on style or performance.",
+    "features": "Breathable mesh upper\nCushioned midsole for all-day comfort\nDurable rubber outsole\nLightweight design\nReinforced heel support",
+    "specifications": "Material: Mesh & Synthetic\nSole: Rubber\nClosure: Lace-up\nWeight: 284g\nCare: Wipe with a damp cloth",
+    "stock": 0,
+    "rating": "0.00",
+    "rating_count": 0,
+    "status": "active",
+    "is_featured": false,
+    "is_best_seller": false,
+    "is_new_arrival": false,
+    "is_trending": false,
+    "sold_count": 78,
+    "created_at": "2026-07-11T13:07:51.878Z",
+    "updated_at": "2026-07-11T13:07:51.878Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 9,
+  "fields": {
+    "name": "Nike Ghost Trekker 9",
+    "slug": "nike-ghost-trekker-9",
+    "sku": "SHO-1008",
+    "category": 9,
+    "brand": 1,
+    "price": "5999.00",
+    "discount_price": "4799.00",
+    "description": "The Nike Ghost Trekker 9 combines premium materials with all-day comfort. Engineered for women's shoes enthusiasts who refuse to compromise on style or performance.",
+    "features": "Breathable mesh upper\nCushioned midsole for all-day comfort\nDurable rubber outsole\nLightweight design\nReinforced heel support",
+    "specifications": "Material: Mesh & Synthetic\nSole: Rubber\nClosure: Lace-up\nWeight: 338g\nCare: Wipe with a damp cloth",
+    "stock": 12,
+    "rating": "0.00",
+    "rating_count": 0,
+    "status": "active",
+    "is_featured": false,
+    "is_best_seller": false,
+    "is_new_arrival": false,
+    "is_trending": true,
+    "sold_count": 290,
+    "created_at": "2026-07-11T13:07:51.913Z",
+    "updated_at": "2026-07-11T13:07:51.913Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 10,
+  "fields": {
+    "name": "Woodland Swift Glide 10",
+    "slug": "woodland-swift-glide-10",
+    "sku": "SHO-1009",
+    "category": 2,
+    "brand": 9,
+    "price": "2499.00",
+    "discount_price": null,
+    "description": "The Woodland Swift Glide 10 combines premium materials with all-day comfort. Engineered for running shoes enthusiasts who refuse to compromise on style or performance.",
+    "features": "Breathable mesh upper\nCushioned midsole for all-day comfort\nDurable rubber outsole\nLightweight design\nReinforced heel support",
+    "specifications": "Material: Mesh & Synthetic\nSole: Rubber\nClosure: Lace-up\nWeight: 290g\nCare: Wipe with a damp cloth",
+    "stock": 5,
+    "rating": "5.00",
+    "rating_count": 1,
+    "status": "active",
+    "is_featured": false,
+    "is_best_seller": false,
+    "is_new_arrival": false,
+    "is_trending": false,
+    "sold_count": 276,
+    "created_at": "2026-07-11T13:07:51.945Z",
+    "updated_at": "2026-07-11T13:07:51.945Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 11,
+  "fields": {
+    "name": "Converse Trail Cruiser 11",
+    "slug": "converse-trail-cruiser-11",
+    "sku": "SHO-1010",
+    "category": 11,
+    "brand": 6,
+    "price": "5999.00",
+    "discount_price": "4799.00",
+    "description": "The Converse Trail Cruiser 11 combines premium materials with all-day comfort. Engineered for kids shoes enthusiasts who refuse to compromise on style or performance.",
+    "features": "Breathable mesh upper\nCushioned midsole for all-day comfort\nDurable rubber outsole\nLightweight design\nReinforced heel support",
+    "specifications": "Material: Mesh & Synthetic\nSole: Rubber\nClosure: Lace-up\nWeight: 248g\nCare: Wipe with a damp cloth",
+    "stock": 0,
+    "rating": "4.00",
+    "rating_count": 1,
+    "status": "active",
+    "is_featured": false,
+    "is_best_seller": false,
+    "is_new_arrival": true,
+    "is_trending": false,
+    "sold_count": 36,
+    "created_at": "2026-07-11T13:07:51.977Z",
+    "updated_at": "2026-07-11T13:07:51.977Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 12,
+  "fields": {
+    "name": "Converse Pro Cruiser 12",
+    "slug": "converse-pro-cruiser-12",
+    "sku": "SHO-1011",
+    "category": 1,
+    "brand": 6,
+    "price": "2999.00",
+    "discount_price": "2399.00",
+    "description": "The Converse Pro Cruiser 12 combines premium materials with all-day comfort. Engineered for sneakers enthusiasts who refuse to compromise on style or performance.",
+    "features": "Breathable mesh upper\nCushioned midsole for all-day comfort\nDurable rubber outsole\nLightweight design\nReinforced heel support",
+    "specifications": "Material: Mesh & Synthetic\nSole: Rubber\nClosure: Lace-up\nWeight: 282g\nCare: Wipe with a damp cloth",
+    "stock": 5,
+    "rating": "0.00",
+    "rating_count": 0,
+    "status": "active",
+    "is_featured": false,
+    "is_best_seller": false,
+    "is_new_arrival": false,
+    "is_trending": false,
+    "sold_count": 124,
+    "created_at": "2026-07-11T13:07:52.009Z",
+    "updated_at": "2026-07-11T13:07:52.009Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 13,
+  "fields": {
+    "name": "Adidas Blaze Racer 13",
+    "slug": "adidas-blaze-racer-13",
+    "sku": "SHO-1012",
+    "category": 2,
+    "brand": 2,
+    "price": "3999.00",
+    "discount_price": null,
+    "description": "The Adidas Blaze Racer 13 combines premium materials with all-day comfort. Engineered for running shoes enthusiasts who refuse to compromise on style or performance.",
+    "features": "Breathable mesh upper\nCushioned midsole for all-day comfort\nDurable rubber outsole\nLightweight design\nReinforced heel support",
+    "specifications": "Material: Mesh & Synthetic\nSole: Rubber\nClosure: Lace-up\nWeight: 279g\nCare: Wipe with a damp cloth",
+    "stock": 50,
+    "rating": "4.00",
+    "rating_count": 2,
+    "status": "active",
+    "is_featured": true,
+    "is_best_seller": false,
+    "is_new_arrival": false,
+    "is_trending": true,
+    "sold_count": 173,
+    "created_at": "2026-07-11T13:07:52.040Z",
+    "updated_at": "2026-07-11T13:07:52.040Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 14,
+  "fields": {
+    "name": "Woodland Trail Glide 14",
+    "slug": "woodland-trail-glide-14",
+    "sku": "SHO-1013",
+    "category": 4,
+    "brand": 9,
+    "price": "4999.00",
+    "discount_price": "3999.00",
+    "description": "The Woodland Trail Glide 14 combines premium materials with all-day comfort. Engineered for casual shoes enthusiasts who refuse to compromise on style or performance.",
+    "features": "Breathable mesh upper\nCushioned midsole for all-day comfort\nDurable rubber outsole\nLightweight design\nReinforced heel support",
+    "specifications": "Material: Mesh & Synthetic\nSole: Rubber\nClosure: Lace-up\nWeight: 279g\nCare: Wipe with a damp cloth",
+    "stock": 5,
+    "rating": "5.00",
+    "rating_count": 1,
+    "status": "active",
+    "is_featured": false,
+    "is_best_seller": true,
+    "is_new_arrival": false,
+    "is_trending": false,
+    "sold_count": 50,
+    "created_at": "2026-07-11T13:07:52.072Z",
+    "updated_at": "2026-07-11T13:07:52.072Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 15,
+  "fields": {
+    "name": "Reebok Ultra Racer 15",
+    "slug": "reebok-ultra-racer-15",
+    "sku": "SHO-1014",
+    "category": 2,
+    "brand": 4,
+    "price": "5999.00",
+    "discount_price": null,
+    "description": "The Reebok Ultra Racer 15 combines premium materials with all-day comfort. Engineered for running shoes enthusiasts who refuse to compromise on style or performance.",
+    "features": "Breathable mesh upper\nCushioned midsole for all-day comfort\nDurable rubber outsole\nLightweight design\nReinforced heel support",
+    "specifications": "Material: Mesh & Synthetic\nSole: Rubber\nClosure: Lace-up\nWeight: 330g\nCare: Wipe with a damp cloth",
+    "stock": 20,
+    "rating": "4.00",
+    "rating_count": 1,
+    "status": "active",
+    "is_featured": false,
+    "is_best_seller": true,
+    "is_new_arrival": true,
+    "is_trending": false,
+    "sold_count": 232,
+    "created_at": "2026-07-11T13:07:52.104Z",
+    "updated_at": "2026-07-11T13:07:52.104Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 16,
+  "fields": {
+    "name": "ASICS Ultra Boost 16",
+    "slug": "asics-ultra-boost-16",
+    "sku": "SHO-1015",
+    "category": 11,
+    "brand": 8,
+    "price": "3499.00",
+    "discount_price": "2799.00",
+    "description": "The ASICS Ultra Boost 16 combines premium materials with all-day comfort. Engineered for kids shoes enthusiasts who refuse to compromise on style or performance.",
+    "features": "Breathable mesh upper\nCushioned midsole for all-day comfort\nDurable rubber outsole\nLightweight design\nReinforced heel support",
+    "specifications": "Material: Mesh & Synthetic\nSole: Rubber\nClosure: Lace-up\nWeight: 227g\nCare: Wipe with a damp cloth",
+    "stock": 35,
+    "rating": "4.50",
+    "rating_count": 2,
+    "status": "active",
+    "is_featured": false,
+    "is_best_seller": true,
+    "is_new_arrival": false,
+    "is_trending": true,
+    "sold_count": 244,
+    "created_at": "2026-07-11T13:07:52.136Z",
+    "updated_at": "2026-07-11T13:07:52.136Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 17,
+  "fields": {
+    "name": "Woodland Pro Glide 17",
+    "slug": "woodland-pro-glide-17",
+    "sku": "SHO-1016",
+    "category": 1,
+    "brand": 9,
+    "price": "1999.00",
+    "discount_price": null,
+    "description": "The Woodland Pro Glide 17 combines premium materials with all-day comfort. Engineered for sneakers enthusiasts who refuse to compromise on style or performance.",
+    "features": "Breathable mesh upper\nCushioned midsole for all-day comfort\nDurable rubber outsole\nLightweight design\nReinforced heel support",
+    "specifications": "Material: Mesh & Synthetic\nSole: Rubber\nClosure: Lace-up\nWeight: 306g\nCare: Wipe with a damp cloth",
+    "stock": 5,
+    "rating": "3.00",
+    "rating_count": 1,
+    "status": "active",
+    "is_featured": false,
+    "is_best_seller": false,
+    "is_new_arrival": false,
+    "is_trending": false,
+    "sold_count": 20,
+    "created_at": "2026-07-11T13:07:52.170Z",
+    "updated_at": "2026-07-11T13:07:52.170Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 18,
+  "fields": {
+    "name": "Bata Ghost Cruiser 18",
+    "slug": "bata-ghost-cruiser-18",
+    "sku": "SHO-1017",
+    "category": 11,
+    "brand": 10,
+    "price": "3999.00",
+    "discount_price": null,
+    "description": "The Bata Ghost Cruiser 18 combines premium materials with all-day comfort. Engineered for kids shoes enthusiasts who refuse to compromise on style or performance.",
+    "features": "Breathable mesh upper\nCushioned midsole for all-day comfort\nDurable rubber outsole\nLightweight design\nReinforced heel support",
+    "specifications": "Material: Mesh & Synthetic\nSole: Rubber\nClosure: Lace-up\nWeight: 246g\nCare: Wipe with a damp cloth",
+    "stock": 50,
+    "rating": "4.00",
+    "rating_count": 1,
+    "status": "active",
+    "is_featured": false,
+    "is_best_seller": false,
+    "is_new_arrival": false,
+    "is_trending": false,
+    "sold_count": 153,
+    "created_at": "2026-07-11T13:07:52.207Z",
+    "updated_at": "2026-07-11T13:07:52.207Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 19,
+  "fields": {
+    "name": "ASICS Ghost Voyager 19",
+    "slug": "asics-ghost-voyager-19",
+    "sku": "SHO-1018",
+    "category": 1,
+    "brand": 8,
+    "price": "1999.00",
+    "discount_price": "1599.00",
+    "description": "The ASICS Ghost Voyager 19 combines premium materials with all-day comfort. Engineered for sneakers enthusiasts who refuse to compromise on style or performance.",
+    "features": "Breathable mesh upper\nCushioned midsole for all-day comfort\nDurable rubber outsole\nLightweight design\nReinforced heel support",
+    "specifications": "Material: Mesh & Synthetic\nSole: Rubber\nClosure: Lace-up\nWeight: 247g\nCare: Wipe with a damp cloth",
+    "stock": 35,
+    "rating": "5.00",
+    "rating_count": 1,
+    "status": "active",
+    "is_featured": false,
+    "is_best_seller": false,
+    "is_new_arrival": false,
+    "is_trending": false,
+    "sold_count": 189,
+    "created_at": "2026-07-11T13:07:52.239Z",
+    "updated_at": "2026-07-11T13:07:52.239Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 20,
+  "fields": {
+    "name": "Skechers Ghost Cruiser 20",
+    "slug": "skechers-ghost-cruiser-20",
+    "sku": "SHO-1019",
+    "category": 9,
+    "brand": 5,
+    "price": "1499.00",
+    "discount_price": null,
+    "description": "The Skechers Ghost Cruiser 20 combines premium materials with all-day comfort. Engineered for women's shoes enthusiasts who refuse to compromise on style or performance.",
+    "features": "Breathable mesh upper\nCushioned midsole for all-day comfort\nDurable rubber outsole\nLightweight design\nReinforced heel support",
+    "specifications": "Material: Mesh & Synthetic\nSole: Rubber\nClosure: Lace-up\nWeight: 290g\nCare: Wipe with a damp cloth",
+    "stock": 12,
+    "rating": "3.00",
+    "rating_count": 1,
+    "status": "active",
+    "is_featured": false,
+    "is_best_seller": true,
+    "is_new_arrival": false,
+    "is_trending": false,
+    "sold_count": 54,
+    "created_at": "2026-07-11T13:07:52.273Z",
+    "updated_at": "2026-07-11T13:07:52.273Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 21,
+  "fields": {
+    "name": "Bata Ignite Trekker 21",
+    "slug": "bata-ignite-trekker-21",
+    "sku": "SHO-1020",
+    "category": 5,
+    "brand": 10,
+    "price": "2999.00",
+    "discount_price": null,
+    "description": "The Bata Ignite Trekker 21 combines premium materials with all-day comfort. Engineered for boots enthusiasts who refuse to compromise on style or performance.",
+    "features": "Breathable mesh upper\nCushioned midsole for all-day comfort\nDurable rubber outsole\nLightweight design\nReinforced heel support",
+    "specifications": "Material: Mesh & Synthetic\nSole: Rubber\nClosure: Lace-up\nWeight: 329g\nCare: Wipe with a damp cloth",
+    "stock": 12,
+    "rating": "5.00",
+    "rating_count": 1,
+    "status": "active",
+    "is_featured": false,
+    "is_best_seller": false,
+    "is_new_arrival": false,
+    "is_trending": true,
+    "sold_count": 216,
+    "created_at": "2026-07-11T13:07:52.305Z",
+    "updated_at": "2026-07-11T13:07:52.305Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 22,
+  "fields": {
+    "name": "Puma Blaze Court 22",
+    "slug": "puma-blaze-court-22",
+    "sku": "SHO-1021",
+    "category": 6,
+    "brand": 3,
+    "price": "2499.00",
+    "discount_price": null,
+    "description": "The Puma Blaze Court 22 combines premium materials with all-day comfort. Engineered for sandals enthusiasts who refuse to compromise on style or performance.",
+    "features": "Breathable mesh upper\nCushioned midsole for all-day comfort\nDurable rubber outsole\nLightweight design\nReinforced heel support",
+    "specifications": "Material: Mesh & Synthetic\nSole: Rubber\nClosure: Lace-up\nWeight: 290g\nCare: Wipe with a damp cloth",
+    "stock": 50,
+    "rating": "5.00",
+    "rating_count": 1,
+    "status": "active",
+    "is_featured": false,
+    "is_best_seller": true,
+    "is_new_arrival": true,
+    "is_trending": false,
+    "sold_count": 76,
+    "created_at": "2026-07-11T13:07:52.336Z",
+    "updated_at": "2026-07-11T13:07:52.336Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 23,
+  "fields": {
+    "name": "Woodland Ultra Racer 23",
+    "slug": "woodland-ultra-racer-23",
+    "sku": "SHO-1022",
+    "category": 10,
+    "brand": 9,
+    "price": "2499.00",
+    "discount_price": "1999.00",
+    "description": "The Woodland Ultra Racer 23 combines premium materials with all-day comfort. Engineered for men's shoes enthusiasts who refuse to compromise on style or performance.",
+    "features": "Breathable mesh upper\nCushioned midsole for all-day comfort\nDurable rubber outsole\nLightweight design\nReinforced heel support",
+    "specifications": "Material: Mesh & Synthetic\nSole: Rubber\nClosure: Lace-up\nWeight: 266g\nCare: Wipe with a damp cloth",
+    "stock": 0,
+    "rating": "0.00",
+    "rating_count": 0,
+    "status": "active",
+    "is_featured": false,
+    "is_best_seller": false,
+    "is_new_arrival": true,
+    "is_trending": true,
+    "sold_count": 286,
+    "created_at": "2026-07-11T13:07:52.370Z",
+    "updated_at": "2026-07-11T13:07:52.370Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 24,
+  "fields": {
+    "name": "Puma Swift Glide 24",
+    "slug": "puma-swift-glide-24",
+    "sku": "SHO-1023",
+    "category": 4,
+    "brand": 3,
+    "price": "4999.00",
+    "discount_price": "3999.00",
+    "description": "The Puma Swift Glide 24 combines premium materials with all-day comfort. Engineered for casual shoes enthusiasts who refuse to compromise on style or performance.",
+    "features": "Breathable mesh upper\nCushioned midsole for all-day comfort\nDurable rubber outsole\nLightweight design\nReinforced heel support",
+    "specifications": "Material: Mesh & Synthetic\nSole: Rubber\nClosure: Lace-up\nWeight: 314g\nCare: Wipe with a damp cloth",
+    "stock": 12,
+    "rating": "0.00",
+    "rating_count": 0,
+    "status": "active",
+    "is_featured": false,
+    "is_best_seller": false,
+    "is_new_arrival": false,
+    "is_trending": false,
+    "sold_count": 127,
+    "created_at": "2026-07-11T13:07:52.402Z",
+    "updated_at": "2026-07-11T13:07:52.402Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 25,
+  "fields": {
+    "name": "Nike Nova Sprint 25",
+    "slug": "nike-nova-sprint-25",
+    "sku": "SHO-1024",
+    "category": 7,
+    "brand": 1,
+    "price": "2999.00",
+    "discount_price": "2399.00",
+    "description": "The Nike Nova Sprint 25 combines premium materials with all-day comfort. Engineered for slippers enthusiasts who refuse to compromise on style or performance.",
+    "features": "Breathable mesh upper\nCushioned midsole for all-day comfort\nDurable rubber outsole\nLightweight design\nReinforced heel support",
+    "specifications": "Material: Mesh & Synthetic\nSole: Rubber\nClosure: Lace-up\nWeight: 337g\nCare: Wipe with a damp cloth",
+    "stock": 20,
+    "rating": "4.50",
+    "rating_count": 2,
+    "status": "active",
+    "is_featured": false,
+    "is_best_seller": false,
+    "is_new_arrival": false,
+    "is_trending": false,
+    "sold_count": 98,
+    "created_at": "2026-07-11T13:07:52.433Z",
+    "updated_at": "2026-07-11T13:07:52.433Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 26,
+  "fields": {
+    "name": "Skechers Storm Cruiser 26",
+    "slug": "skechers-storm-cruiser-26",
+    "sku": "SHO-1025",
+    "category": 2,
+    "brand": 5,
+    "price": "4999.00",
+    "discount_price": null,
+    "description": "The Skechers Storm Cruiser 26 combines premium materials with all-day comfort. Engineered for running shoes enthusiasts who refuse to compromise on style or performance.",
+    "features": "Breathable mesh upper\nCushioned midsole for all-day comfort\nDurable rubber outsole\nLightweight design\nReinforced heel support",
+    "specifications": "Material: Mesh & Synthetic\nSole: Rubber\nClosure: Lace-up\nWeight: 327g\nCare: Wipe with a damp cloth",
+    "stock": 35,
+    "rating": "3.50",
+    "rating_count": 2,
+    "status": "active",
+    "is_featured": false,
+    "is_best_seller": true,
+    "is_new_arrival": false,
+    "is_trending": false,
+    "sold_count": 297,
+    "created_at": "2026-07-11T13:07:52.470Z",
+    "updated_at": "2026-07-11T13:07:52.470Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 27,
+  "fields": {
+    "name": "New Balance Storm Trekker 27",
+    "slug": "new-balance-storm-trekker-27",
+    "sku": "SHO-1026",
+    "category": 10,
+    "brand": 7,
+    "price": "4999.00",
+    "discount_price": null,
+    "description": "The New Balance Storm Trekker 27 combines premium materials with all-day comfort. Engineered for men's shoes enthusiasts who refuse to compromise on style or performance.",
+    "features": "Breathable mesh upper\nCushioned midsole for all-day comfort\nDurable rubber outsole\nLightweight design\nReinforced heel support",
+    "specifications": "Material: Mesh & Synthetic\nSole: Rubber\nClosure: Lace-up\nWeight: 285g\nCare: Wipe with a damp cloth",
+    "stock": 0,
+    "rating": "3.50",
+    "rating_count": 2,
+    "status": "active",
+    "is_featured": false,
+    "is_best_seller": false,
+    "is_new_arrival": false,
+    "is_trending": false,
+    "sold_count": 0,
+    "created_at": "2026-07-11T13:07:52.505Z",
+    "updated_at": "2026-07-11T13:07:52.505Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 28,
+  "fields": {
+    "name": "New Balance Pro Trekker 28",
+    "slug": "new-balance-pro-trekker-28",
+    "sku": "SHO-1027",
+    "category": 6,
+    "brand": 7,
+    "price": "3999.00",
+    "discount_price": null,
+    "description": "The New Balance Pro Trekker 28 combines premium materials with all-day comfort. Engineered for sandals enthusiasts who refuse to compromise on style or performance.",
+    "features": "Breathable mesh upper\nCushioned midsole for all-day comfort\nDurable rubber outsole\nLightweight design\nReinforced heel support",
+    "specifications": "Material: Mesh & Synthetic\nSole: Rubber\nClosure: Lace-up\nWeight: 235g\nCare: Wipe with a damp cloth",
+    "stock": 50,
+    "rating": "0.00",
+    "rating_count": 0,
+    "status": "active",
+    "is_featured": false,
+    "is_best_seller": false,
+    "is_new_arrival": false,
+    "is_trending": false,
+    "sold_count": 151,
+    "created_at": "2026-07-11T13:07:52.539Z",
+    "updated_at": "2026-07-11T13:07:52.539Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 29,
+  "fields": {
+    "name": "New Balance Blaze Glide 29",
+    "slug": "new-balance-blaze-glide-29",
+    "sku": "SHO-1028",
+    "category": 7,
+    "brand": 7,
+    "price": "3499.00",
+    "discount_price": null,
+    "description": "The New Balance Blaze Glide 29 combines premium materials with all-day comfort. Engineered for slippers enthusiasts who refuse to compromise on style or performance.",
+    "features": "Breathable mesh upper\nCushioned midsole for all-day comfort\nDurable rubber outsole\nLightweight design\nReinforced heel support",
+    "specifications": "Material: Mesh & Synthetic\nSole: Rubber\nClosure: Lace-up\nWeight: 326g\nCare: Wipe with a damp cloth",
+    "stock": 0,
+    "rating": "3.00",
+    "rating_count": 2,
+    "status": "active",
+    "is_featured": false,
+    "is_best_seller": false,
+    "is_new_arrival": false,
+    "is_trending": false,
+    "sold_count": 164,
+    "created_at": "2026-07-11T13:07:52.573Z",
+    "updated_at": "2026-07-11T13:07:52.573Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 30,
+  "fields": {
+    "name": "Reebok Ace Sprint 30",
+    "slug": "reebok-ace-sprint-30",
+    "sku": "SHO-1029",
+    "category": 11,
+    "brand": 4,
+    "price": "2499.00",
+    "discount_price": null,
+    "description": "The Reebok Ace Sprint 30 combines premium materials with all-day comfort. Engineered for kids shoes enthusiasts who refuse to compromise on style or performance.",
+    "features": "Breathable mesh upper\nCushioned midsole for all-day comfort\nDurable rubber outsole\nLightweight design\nReinforced heel support",
+    "specifications": "Material: Mesh & Synthetic\nSole: Rubber\nClosure: Lace-up\nWeight: 256g\nCare: Wipe with a damp cloth",
+    "stock": 35,
+    "rating": "0.00",
+    "rating_count": 0,
+    "status": "active",
+    "is_featured": false,
+    "is_best_seller": false,
+    "is_new_arrival": true,
+    "is_trending": false,
+    "sold_count": 120,
+    "created_at": "2026-07-11T13:07:52.614Z",
+    "updated_at": "2026-07-11T13:07:52.614Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 31,
+  "fields": {
+    "name": "Nike Air Boost 31",
+    "slug": "nike-air-boost-31",
+    "sku": "SHO-1030",
+    "category": 3,
+    "brand": 1,
+    "price": "5999.00",
+    "discount_price": null,
+    "description": "The Nike Air Boost 31 combines premium materials with all-day comfort. Engineered for sports shoes enthusiasts who refuse to compromise on style or performance.",
+    "features": "Breathable mesh upper\nCushioned midsole for all-day comfort\nDurable rubber outsole\nLightweight design\nReinforced heel support",
+    "specifications": "Material: Mesh & Synthetic\nSole: Rubber\nClosure: Lace-up\nWeight: 318g\nCare: Wipe with a damp cloth",
+    "stock": 0,
+    "rating": "4.00",
+    "rating_count": 2,
+    "status": "active",
+    "is_featured": false,
+    "is_best_seller": false,
+    "is_new_arrival": false,
+    "is_trending": false,
+    "sold_count": 196,
+    "created_at": "2026-07-11T13:07:52.646Z",
+    "updated_at": "2026-07-11T13:07:52.646Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 32,
+  "fields": {
+    "name": "Nike Peak Strike 32",
+    "slug": "nike-peak-strike-32",
+    "sku": "SHO-1031",
+    "category": 3,
+    "brand": 1,
+    "price": "4999.00",
+    "discount_price": "3999.00",
+    "description": "The Nike Peak Strike 32 combines premium materials with all-day comfort. Engineered for sports shoes enthusiasts who refuse to compromise on style or performance.",
+    "features": "Breathable mesh upper\nCushioned midsole for all-day comfort\nDurable rubber outsole\nLightweight design\nReinforced heel support",
+    "specifications": "Material: Mesh & Synthetic\nSole: Rubber\nClosure: Lace-up\nWeight: 322g\nCare: Wipe with a damp cloth",
+    "stock": 50,
+    "rating": "0.00",
+    "rating_count": 0,
+    "status": "active",
+    "is_featured": false,
+    "is_best_seller": true,
+    "is_new_arrival": true,
+    "is_trending": false,
+    "sold_count": 233,
+    "created_at": "2026-07-11T13:07:52.677Z",
+    "updated_at": "2026-07-11T13:07:52.677Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 33,
+  "fields": {
+    "name": "Bata Storm Sprint 33",
+    "slug": "bata-storm-sprint-33",
+    "sku": "SHO-1032",
+    "category": 9,
+    "brand": 10,
+    "price": "6999.00",
+    "discount_price": null,
+    "description": "The Bata Storm Sprint 33 combines premium materials with all-day comfort. Engineered for women's shoes enthusiasts who refuse to compromise on style or performance.",
+    "features": "Breathable mesh upper\nCushioned midsole for all-day comfort\nDurable rubber outsole\nLightweight design\nReinforced heel support",
+    "specifications": "Material: Mesh & Synthetic\nSole: Rubber\nClosure: Lace-up\nWeight: 336g\nCare: Wipe with a damp cloth",
+    "stock": 35,
+    "rating": "4.00",
+    "rating_count": 1,
+    "status": "active",
+    "is_featured": false,
+    "is_best_seller": true,
+    "is_new_arrival": false,
+    "is_trending": false,
+    "sold_count": 126,
+    "created_at": "2026-07-11T13:07:52.710Z",
+    "updated_at": "2026-07-11T13:07:52.710Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 34,
+  "fields": {
+    "name": "Reebok Ridge Sprint 34",
+    "slug": "reebok-ridge-sprint-34",
+    "sku": "SHO-1033",
+    "category": 11,
+    "brand": 4,
+    "price": "1999.00",
+    "discount_price": null,
+    "description": "The Reebok Ridge Sprint 34 combines premium materials with all-day comfort. Engineered for kids shoes enthusiasts who refuse to compromise on style or performance.",
+    "features": "Breathable mesh upper\nCushioned midsole for all-day comfort\nDurable rubber outsole\nLightweight design\nReinforced heel support",
+    "specifications": "Material: Mesh & Synthetic\nSole: Rubber\nClosure: Lace-up\nWeight: 250g\nCare: Wipe with a damp cloth",
+    "stock": 12,
+    "rating": "0.00",
+    "rating_count": 0,
+    "status": "active",
+    "is_featured": false,
+    "is_best_seller": false,
+    "is_new_arrival": true,
+    "is_trending": true,
+    "sold_count": 196,
+    "created_at": "2026-07-11T13:07:52.744Z",
+    "updated_at": "2026-07-11T13:07:52.744Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 35,
+  "fields": {
+    "name": "New Balance Storm Cruiser 35",
+    "slug": "new-balance-storm-cruiser-35",
+    "sku": "SHO-1034",
+    "category": 7,
+    "brand": 7,
+    "price": "5999.00",
+    "discount_price": null,
+    "description": "The New Balance Storm Cruiser 35 combines premium materials with all-day comfort. Engineered for slippers enthusiasts who refuse to compromise on style or performance.",
+    "features": "Breathable mesh upper\nCushioned midsole for all-day comfort\nDurable rubber outsole\nLightweight design\nReinforced heel support",
+    "specifications": "Material: Mesh & Synthetic\nSole: Rubber\nClosure: Lace-up\nWeight: 246g\nCare: Wipe with a damp cloth",
+    "stock": 20,
+    "rating": "0.00",
+    "rating_count": 0,
+    "status": "active",
+    "is_featured": false,
+    "is_best_seller": false,
+    "is_new_arrival": false,
+    "is_trending": true,
+    "sold_count": 294,
+    "created_at": "2026-07-11T13:07:52.777Z",
+    "updated_at": "2026-07-11T13:07:52.777Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 36,
+  "fields": {
+    "name": "Skechers Swift Racer 36",
+    "slug": "skechers-swift-racer-36",
+    "sku": "SHO-1035",
+    "category": 6,
+    "brand": 5,
+    "price": "4999.00",
+    "discount_price": null,
+    "description": "The Skechers Swift Racer 36 combines premium materials with all-day comfort. Engineered for sandals enthusiasts who refuse to compromise on style or performance.",
+    "features": "Breathable mesh upper\nCushioned midsole for all-day comfort\nDurable rubber outsole\nLightweight design\nReinforced heel support",
+    "specifications": "Material: Mesh & Synthetic\nSole: Rubber\nClosure: Lace-up\nWeight: 314g\nCare: Wipe with a damp cloth",
+    "stock": 35,
+    "rating": "5.00",
+    "rating_count": 1,
+    "status": "active",
+    "is_featured": false,
+    "is_best_seller": false,
+    "is_new_arrival": false,
+    "is_trending": false,
+    "sold_count": 248,
+    "created_at": "2026-07-11T13:07:52.809Z",
+    "updated_at": "2026-07-11T13:07:52.809Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 37,
+  "fields": {
+    "name": "New Balance Prime Glide 37",
+    "slug": "new-balance-prime-glide-37",
+    "sku": "SHO-1036",
+    "category": 11,
+    "brand": 7,
+    "price": "5999.00",
+    "discount_price": null,
+    "description": "The New Balance Prime Glide 37 combines premium materials with all-day comfort. Engineered for kids shoes enthusiasts who refuse to compromise on style or performance.",
+    "features": "Breathable mesh upper\nCushioned midsole for all-day comfort\nDurable rubber outsole\nLightweight design\nReinforced heel support",
+    "specifications": "Material: Mesh & Synthetic\nSole: Rubber\nClosure: Lace-up\nWeight: 299g\nCare: Wipe with a damp cloth",
+    "stock": 35,
+    "rating": "3.50",
+    "rating_count": 2,
+    "status": "active",
+    "is_featured": true,
+    "is_best_seller": false,
+    "is_new_arrival": false,
+    "is_trending": true,
+    "sold_count": 219,
+    "created_at": "2026-07-11T13:07:52.844Z",
+    "updated_at": "2026-07-11T13:07:52.844Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 38,
+  "fields": {
+    "name": "Skechers Flex Trekker 38",
+    "slug": "skechers-flex-trekker-38",
+    "sku": "SHO-1037",
+    "category": 1,
+    "brand": 5,
+    "price": "2999.00",
+    "discount_price": null,
+    "description": "The Skechers Flex Trekker 38 combines premium materials with all-day comfort. Engineered for sneakers enthusiasts who refuse to compromise on style or performance.",
+    "features": "Breathable mesh upper\nCushioned midsole for all-day comfort\nDurable rubber outsole\nLightweight design\nReinforced heel support",
+    "specifications": "Material: Mesh & Synthetic\nSole: Rubber\nClosure: Lace-up\nWeight: 263g\nCare: Wipe with a damp cloth",
+    "stock": 20,
+    "rating": "3.00",
+    "rating_count": 1,
+    "status": "active",
+    "is_featured": false,
+    "is_best_seller": false,
+    "is_new_arrival": false,
+    "is_trending": false,
+    "sold_count": 240,
+    "created_at": "2026-07-11T13:07:52.910Z",
+    "updated_at": "2026-07-11T13:07:52.910Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 39,
+  "fields": {
+    "name": "Reebok Blaze Strike 39",
+    "slug": "reebok-blaze-strike-39",
+    "sku": "SHO-1038",
+    "category": 6,
+    "brand": 4,
+    "price": "1499.00",
+    "discount_price": null,
+    "description": "The Reebok Blaze Strike 39 combines premium materials with all-day comfort. Engineered for sandals enthusiasts who refuse to compromise on style or performance.",
+    "features": "Breathable mesh upper\nCushioned midsole for all-day comfort\nDurable rubber outsole\nLightweight design\nReinforced heel support",
+    "specifications": "Material: Mesh & Synthetic\nSole: Rubber\nClosure: Lace-up\nWeight: 251g\nCare: Wipe with a damp cloth",
+    "stock": 5,
+    "rating": "4.33",
+    "rating_count": 3,
+    "status": "active",
+    "is_featured": false,
+    "is_best_seller": false,
+    "is_new_arrival": true,
+    "is_trending": false,
+    "sold_count": 58,
+    "created_at": "2026-07-11T13:07:52.955Z",
+    "updated_at": "2026-07-11T13:07:52.955Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 40,
+  "fields": {
+    "name": "Converse Ultra Voyager 40",
+    "slug": "converse-ultra-voyager-40",
+    "sku": "SHO-1039",
+    "category": 5,
+    "brand": 6,
+    "price": "1999.00",
+    "discount_price": null,
+    "description": "The Converse Ultra Voyager 40 combines premium materials with all-day comfort. Engineered for boots enthusiasts who refuse to compromise on style or performance.",
+    "features": "Breathable mesh upper\nCushioned midsole for all-day comfort\nDurable rubber outsole\nLightweight design\nReinforced heel support",
+    "specifications": "Material: Mesh & Synthetic\nSole: Rubber\nClosure: Lace-up\nWeight: 240g\nCare: Wipe with a damp cloth",
+    "stock": 12,
+    "rating": "5.00",
+    "rating_count": 1,
+    "status": "active",
+    "is_featured": true,
+    "is_best_seller": true,
+    "is_new_arrival": false,
+    "is_trending": false,
+    "sold_count": 192,
+    "created_at": "2026-07-11T13:07:52.989Z",
+    "updated_at": "2026-07-11T13:07:52.989Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 41,
+  "fields": {
+    "name": "Reebok Pro Court 41",
+    "slug": "reebok-pro-court-41",
+    "sku": "SHO-1040",
+    "category": 10,
+    "brand": 4,
+    "price": "1999.00",
+    "discount_price": null,
+    "description": "The Reebok Pro Court 41 combines premium materials with all-day comfort. Engineered for men's shoes enthusiasts who refuse to compromise on style or performance.",
+    "features": "Breathable mesh upper\nCushioned midsole for all-day comfort\nDurable rubber outsole\nLightweight design\nReinforced heel support",
+    "specifications": "Material: Mesh & Synthetic\nSole: Rubber\nClosure: Lace-up\nWeight: 292g\nCare: Wipe with a damp cloth",
+    "stock": 0,
+    "rating": "3.00",
+    "rating_count": 1,
+    "status": "active",
+    "is_featured": false,
+    "is_best_seller": false,
+    "is_new_arrival": false,
+    "is_trending": false,
+    "sold_count": 174,
+    "created_at": "2026-07-11T13:07:53.026Z",
+    "updated_at": "2026-07-11T13:07:53.027Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 42,
+  "fields": {
+    "name": "New Balance Storm Sprint 42",
+    "slug": "new-balance-storm-sprint-42",
+    "sku": "SHO-1041",
+    "category": 2,
+    "brand": 7,
+    "price": "2499.00",
+    "discount_price": null,
+    "description": "The New Balance Storm Sprint 42 combines premium materials with all-day comfort. Engineered for running shoes enthusiasts who refuse to compromise on style or performance.",
+    "features": "Breathable mesh upper\nCushioned midsole for all-day comfort\nDurable rubber outsole\nLightweight design\nReinforced heel support",
+    "specifications": "Material: Mesh & Synthetic\nSole: Rubber\nClosure: Lace-up\nWeight: 313g\nCare: Wipe with a damp cloth",
+    "stock": 35,
+    "rating": "4.00",
+    "rating_count": 1,
+    "status": "active",
+    "is_featured": false,
+    "is_best_seller": false,
+    "is_new_arrival": false,
+    "is_trending": false,
+    "sold_count": 247,
+    "created_at": "2026-07-11T13:07:53.062Z",
+    "updated_at": "2026-07-11T13:07:53.062Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 43,
+  "fields": {
+    "name": "Converse Nova Boost 43",
+    "slug": "converse-nova-boost-43",
+    "sku": "SHO-1042",
+    "category": 5,
+    "brand": 6,
+    "price": "1999.00",
+    "discount_price": "1599.00",
+    "description": "The Converse Nova Boost 43 combines premium materials with all-day comfort. Engineered for boots enthusiasts who refuse to compromise on style or performance.",
+    "features": "Breathable mesh upper\nCushioned midsole for all-day comfort\nDurable rubber outsole\nLightweight design\nReinforced heel support",
+    "specifications": "Material: Mesh & Synthetic\nSole: Rubber\nClosure: Lace-up\nWeight: 277g\nCare: Wipe with a damp cloth",
+    "stock": 5,
+    "rating": "5.00",
+    "rating_count": 1,
+    "status": "active",
+    "is_featured": false,
+    "is_best_seller": false,
+    "is_new_arrival": false,
+    "is_trending": false,
+    "sold_count": 253,
+    "created_at": "2026-07-11T13:07:53.098Z",
+    "updated_at": "2026-07-11T13:07:53.098Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 44,
+  "fields": {
+    "name": "Converse Swift Court 44",
+    "slug": "converse-swift-court-44",
+    "sku": "SHO-1043",
+    "category": 4,
+    "brand": 6,
+    "price": "3999.00",
+    "discount_price": "3199.00",
+    "description": "The Converse Swift Court 44 combines premium materials with all-day comfort. Engineered for casual shoes enthusiasts who refuse to compromise on style or performance.",
+    "features": "Breathable mesh upper\nCushioned midsole for all-day comfort\nDurable rubber outsole\nLightweight design\nReinforced heel support",
+    "specifications": "Material: Mesh & Synthetic\nSole: Rubber\nClosure: Lace-up\nWeight: 296g\nCare: Wipe with a damp cloth",
+    "stock": 50,
+    "rating": "4.00",
+    "rating_count": 1,
+    "status": "active",
+    "is_featured": false,
+    "is_best_seller": false,
+    "is_new_arrival": false,
+    "is_trending": true,
+    "sold_count": 123,
+    "created_at": "2026-07-11T13:07:53.134Z",
+    "updated_at": "2026-07-11T13:07:53.134Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 45,
+  "fields": {
+    "name": "ASICS Blaze Sprint 45",
+    "slug": "asics-blaze-sprint-45",
+    "sku": "SHO-1044",
+    "category": 4,
+    "brand": 8,
+    "price": "5999.00",
+    "discount_price": null,
+    "description": "The ASICS Blaze Sprint 45 combines premium materials with all-day comfort. Engineered for casual shoes enthusiasts who refuse to compromise on style or performance.",
+    "features": "Breathable mesh upper\nCushioned midsole for all-day comfort\nDurable rubber outsole\nLightweight design\nReinforced heel support",
+    "specifications": "Material: Mesh & Synthetic\nSole: Rubber\nClosure: Lace-up\nWeight: 231g\nCare: Wipe with a damp cloth",
+    "stock": 12,
+    "rating": "5.00",
+    "rating_count": 1,
+    "status": "active",
+    "is_featured": true,
+    "is_best_seller": false,
+    "is_new_arrival": false,
+    "is_trending": false,
+    "sold_count": 242,
+    "created_at": "2026-07-11T13:07:53.170Z",
+    "updated_at": "2026-07-11T13:07:53.170Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 46,
+  "fields": {
+    "name": "Woodland Storm Trekker 46",
+    "slug": "woodland-storm-trekker-46",
+    "sku": "SHO-1045",
+    "category": 7,
+    "brand": 9,
+    "price": "5999.00",
+    "discount_price": "4799.00",
+    "description": "The Woodland Storm Trekker 46 combines premium materials with all-day comfort. Engineered for slippers enthusiasts who refuse to compromise on style or performance.",
+    "features": "Breathable mesh upper\nCushioned midsole for all-day comfort\nDurable rubber outsole\nLightweight design\nReinforced heel support",
+    "specifications": "Material: Mesh & Synthetic\nSole: Rubber\nClosure: Lace-up\nWeight: 252g\nCare: Wipe with a damp cloth",
+    "stock": 5,
+    "rating": "4.00",
+    "rating_count": 2,
+    "status": "active",
+    "is_featured": true,
+    "is_best_seller": true,
+    "is_new_arrival": true,
+    "is_trending": false,
+    "sold_count": 94,
+    "created_at": "2026-07-11T13:07:53.203Z",
+    "updated_at": "2026-07-11T13:07:53.203Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 47,
+  "fields": {
+    "name": "Bata Swift Cruiser 47",
+    "slug": "bata-swift-cruiser-47",
+    "sku": "SHO-1046",
+    "category": 5,
+    "brand": 10,
+    "price": "3499.00",
+    "discount_price": null,
+    "description": "The Bata Swift Cruiser 47 combines premium materials with all-day comfort. Engineered for boots enthusiasts who refuse to compromise on style or performance.",
+    "features": "Breathable mesh upper\nCushioned midsole for all-day comfort\nDurable rubber outsole\nLightweight design\nReinforced heel support",
+    "specifications": "Material: Mesh & Synthetic\nSole: Rubber\nClosure: Lace-up\nWeight: 326g\nCare: Wipe with a damp cloth",
+    "stock": 5,
+    "rating": "0.00",
+    "rating_count": 0,
+    "status": "active",
+    "is_featured": false,
+    "is_best_seller": false,
+    "is_new_arrival": false,
+    "is_trending": false,
+    "sold_count": 64,
+    "created_at": "2026-07-11T13:07:53.236Z",
+    "updated_at": "2026-07-11T13:07:53.236Z"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 48,
+  "fields": {
+    "name": "Skechers Prime Glide 48",
+    "slug": "skechers-prime-glide-48",
+    "sku": "SHO-1047",
+    "category": 9,
+    "brand": 5,
+    "price": "5999.00",
+    "discount_price": "4799.00",
+    "description": "The Skechers Prime Glide 48 combines premium materials with all-day comfort. Engineered for women's shoes enthusiasts who refuse to compromise on style or performance.",
+    "features": "Breathable mesh upper\nCushioned midsole for all-day comfort\nDurable rubber outsole\nLightweight design\nReinforced heel support",
+    "specifications": "Material: Mesh & Synthetic\nSole: Rubber\nClosure: Lace-up\nWeight: 221g\nCare: Wipe with a damp cloth",
+    "stock": 33,
+    "rating": "4.00",
+    "rating_count": 1,
+    "status": "active",
+    "is_featured": false,
+    "is_best_seller": false,
+    "is_new_arrival": false,
+    "is_trending": false,
+    "sold_count": 131,
+    "created_at": "2026-07-11T13:07:53.269Z",
+    "updated_at": "2026-07-11T13:07:53.269Z"
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 1,
+  "fields": {
+    "product": 1,
+    "image": "products/gallery/woodland-flex-boost-1-0.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 2,
+  "fields": {
+    "product": 1,
+    "image": "products/gallery/woodland-flex-boost-1-1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 1
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 3,
+  "fields": {
+    "product": 1,
+    "image": "products/gallery/woodland-flex-boost-1-2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 2
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 4,
+  "fields": {
+    "product": 2,
+    "image": "products/gallery/adidas-storm-trekker-2-0.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 5,
+  "fields": {
+    "product": 2,
+    "image": "products/gallery/adidas-storm-trekker-2-1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 1
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 6,
+  "fields": {
+    "product": 2,
+    "image": "products/gallery/adidas-storm-trekker-2-2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 2
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 7,
+  "fields": {
+    "product": 3,
+    "image": "products/gallery/reebok-swift-court-3-0.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 8,
+  "fields": {
+    "product": 3,
+    "image": "products/gallery/reebok-swift-court-3-1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 1
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 9,
+  "fields": {
+    "product": 3,
+    "image": "products/gallery/reebok-swift-court-3-2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 2
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 10,
+  "fields": {
+    "product": 4,
+    "image": "products/gallery/puma-ace-boost-4-0.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 11,
+  "fields": {
+    "product": 4,
+    "image": "products/gallery/puma-ace-boost-4-1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 1
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 12,
+  "fields": {
+    "product": 4,
+    "image": "products/gallery/puma-ace-boost-4-2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 2
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 13,
+  "fields": {
+    "product": 5,
+    "image": "products/gallery/skechers-pro-boost-5-0.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 14,
+  "fields": {
+    "product": 5,
+    "image": "products/gallery/skechers-pro-boost-5-1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 1
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 15,
+  "fields": {
+    "product": 5,
+    "image": "products/gallery/skechers-pro-boost-5-2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 2
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 16,
+  "fields": {
+    "product": 6,
+    "image": "products/gallery/bata-flex-trekker-6-0.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 17,
+  "fields": {
+    "product": 6,
+    "image": "products/gallery/bata-flex-trekker-6-1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 1
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 18,
+  "fields": {
+    "product": 6,
+    "image": "products/gallery/bata-flex-trekker-6-2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 2
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 19,
+  "fields": {
+    "product": 7,
+    "image": "products/gallery/new-balance-ghost-sprint-7-0.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 20,
+  "fields": {
+    "product": 7,
+    "image": "products/gallery/new-balance-ghost-sprint-7-1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 1
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 21,
+  "fields": {
+    "product": 7,
+    "image": "products/gallery/new-balance-ghost-sprint-7-2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 2
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 22,
+  "fields": {
+    "product": 8,
+    "image": "products/gallery/asics-air-court-8-0.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 23,
+  "fields": {
+    "product": 8,
+    "image": "products/gallery/asics-air-court-8-1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 1
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 24,
+  "fields": {
+    "product": 8,
+    "image": "products/gallery/asics-air-court-8-2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 2
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 25,
+  "fields": {
+    "product": 9,
+    "image": "products/gallery/nike-ghost-trekker-9-0.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 26,
+  "fields": {
+    "product": 9,
+    "image": "products/gallery/nike-ghost-trekker-9-1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 1
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 27,
+  "fields": {
+    "product": 9,
+    "image": "products/gallery/nike-ghost-trekker-9-2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 2
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 28,
+  "fields": {
+    "product": 10,
+    "image": "products/gallery/woodland-swift-glide-10-0.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 29,
+  "fields": {
+    "product": 10,
+    "image": "products/gallery/woodland-swift-glide-10-1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 1
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 30,
+  "fields": {
+    "product": 10,
+    "image": "products/gallery/woodland-swift-glide-10-2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 2
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 31,
+  "fields": {
+    "product": 11,
+    "image": "products/gallery/converse-trail-cruiser-11-0.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 32,
+  "fields": {
+    "product": 11,
+    "image": "products/gallery/converse-trail-cruiser-11-1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 1
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 33,
+  "fields": {
+    "product": 11,
+    "image": "products/gallery/converse-trail-cruiser-11-2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 2
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 34,
+  "fields": {
+    "product": 12,
+    "image": "products/gallery/converse-pro-cruiser-12-0.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 35,
+  "fields": {
+    "product": 12,
+    "image": "products/gallery/converse-pro-cruiser-12-1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 1
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 36,
+  "fields": {
+    "product": 12,
+    "image": "products/gallery/converse-pro-cruiser-12-2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 2
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 37,
+  "fields": {
+    "product": 13,
+    "image": "products/gallery/adidas-blaze-racer-13-0.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 38,
+  "fields": {
+    "product": 13,
+    "image": "products/gallery/adidas-blaze-racer-13-1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 1
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 39,
+  "fields": {
+    "product": 13,
+    "image": "products/gallery/adidas-blaze-racer-13-2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 2
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 40,
+  "fields": {
+    "product": 14,
+    "image": "products/gallery/woodland-trail-glide-14-0.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 41,
+  "fields": {
+    "product": 14,
+    "image": "products/gallery/woodland-trail-glide-14-1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 1
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 42,
+  "fields": {
+    "product": 14,
+    "image": "products/gallery/woodland-trail-glide-14-2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 2
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 43,
+  "fields": {
+    "product": 15,
+    "image": "products/gallery/reebok-ultra-racer-15-0.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 44,
+  "fields": {
+    "product": 15,
+    "image": "products/gallery/reebok-ultra-racer-15-1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 1
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 45,
+  "fields": {
+    "product": 15,
+    "image": "products/gallery/reebok-ultra-racer-15-2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 2
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 46,
+  "fields": {
+    "product": 16,
+    "image": "products/gallery/asics-ultra-boost-16-0.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 47,
+  "fields": {
+    "product": 16,
+    "image": "products/gallery/asics-ultra-boost-16-1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 1
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 48,
+  "fields": {
+    "product": 16,
+    "image": "products/gallery/asics-ultra-boost-16-2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 2
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 49,
+  "fields": {
+    "product": 17,
+    "image": "products/gallery/woodland-pro-glide-17-0.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 50,
+  "fields": {
+    "product": 17,
+    "image": "products/gallery/woodland-pro-glide-17-1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 1
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 51,
+  "fields": {
+    "product": 17,
+    "image": "products/gallery/woodland-pro-glide-17-2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 2
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 52,
+  "fields": {
+    "product": 18,
+    "image": "products/gallery/bata-ghost-cruiser-18-0.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 53,
+  "fields": {
+    "product": 18,
+    "image": "products/gallery/bata-ghost-cruiser-18-1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 1
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 54,
+  "fields": {
+    "product": 18,
+    "image": "products/gallery/bata-ghost-cruiser-18-2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 2
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 55,
+  "fields": {
+    "product": 19,
+    "image": "products/gallery/asics-ghost-voyager-19-0.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 56,
+  "fields": {
+    "product": 19,
+    "image": "products/gallery/asics-ghost-voyager-19-1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 1
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 57,
+  "fields": {
+    "product": 19,
+    "image": "products/gallery/asics-ghost-voyager-19-2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 2
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 58,
+  "fields": {
+    "product": 20,
+    "image": "products/gallery/skechers-ghost-cruiser-20-0.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 59,
+  "fields": {
+    "product": 20,
+    "image": "products/gallery/skechers-ghost-cruiser-20-1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 1
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 60,
+  "fields": {
+    "product": 20,
+    "image": "products/gallery/skechers-ghost-cruiser-20-2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 2
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 61,
+  "fields": {
+    "product": 21,
+    "image": "products/gallery/bata-ignite-trekker-21-0.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 62,
+  "fields": {
+    "product": 21,
+    "image": "products/gallery/bata-ignite-trekker-21-1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 1
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 63,
+  "fields": {
+    "product": 21,
+    "image": "products/gallery/bata-ignite-trekker-21-2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 2
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 64,
+  "fields": {
+    "product": 22,
+    "image": "products/gallery/puma-blaze-court-22-0.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 65,
+  "fields": {
+    "product": 22,
+    "image": "products/gallery/puma-blaze-court-22-1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 1
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 66,
+  "fields": {
+    "product": 22,
+    "image": "products/gallery/puma-blaze-court-22-2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 2
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 67,
+  "fields": {
+    "product": 23,
+    "image": "products/gallery/woodland-ultra-racer-23-0.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 68,
+  "fields": {
+    "product": 23,
+    "image": "products/gallery/woodland-ultra-racer-23-1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 1
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 69,
+  "fields": {
+    "product": 23,
+    "image": "products/gallery/woodland-ultra-racer-23-2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 2
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 70,
+  "fields": {
+    "product": 24,
+    "image": "products/gallery/puma-swift-glide-24-0.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 71,
+  "fields": {
+    "product": 24,
+    "image": "products/gallery/puma-swift-glide-24-1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 1
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 72,
+  "fields": {
+    "product": 24,
+    "image": "products/gallery/puma-swift-glide-24-2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 2
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 73,
+  "fields": {
+    "product": 25,
+    "image": "products/gallery/nike-nova-sprint-25-0.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 74,
+  "fields": {
+    "product": 25,
+    "image": "products/gallery/nike-nova-sprint-25-1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 1
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 75,
+  "fields": {
+    "product": 25,
+    "image": "products/gallery/nike-nova-sprint-25-2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 2
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 76,
+  "fields": {
+    "product": 26,
+    "image": "products/gallery/skechers-storm-cruiser-26-0.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 77,
+  "fields": {
+    "product": 26,
+    "image": "products/gallery/skechers-storm-cruiser-26-1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 1
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 78,
+  "fields": {
+    "product": 26,
+    "image": "products/gallery/skechers-storm-cruiser-26-2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 2
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 79,
+  "fields": {
+    "product": 27,
+    "image": "products/gallery/new-balance-storm-trekker-27-0.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 80,
+  "fields": {
+    "product": 27,
+    "image": "products/gallery/new-balance-storm-trekker-27-1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 1
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 81,
+  "fields": {
+    "product": 27,
+    "image": "products/gallery/new-balance-storm-trekker-27-2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 2
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 82,
+  "fields": {
+    "product": 28,
+    "image": "products/gallery/new-balance-pro-trekker-28-0.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 83,
+  "fields": {
+    "product": 28,
+    "image": "products/gallery/new-balance-pro-trekker-28-1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 1
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 84,
+  "fields": {
+    "product": 28,
+    "image": "products/gallery/new-balance-pro-trekker-28-2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 2
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 85,
+  "fields": {
+    "product": 29,
+    "image": "products/gallery/new-balance-blaze-glide-29-0.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 86,
+  "fields": {
+    "product": 29,
+    "image": "products/gallery/new-balance-blaze-glide-29-1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 1
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 87,
+  "fields": {
+    "product": 29,
+    "image": "products/gallery/new-balance-blaze-glide-29-2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 2
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 88,
+  "fields": {
+    "product": 30,
+    "image": "products/gallery/reebok-ace-sprint-30-0.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 89,
+  "fields": {
+    "product": 30,
+    "image": "products/gallery/reebok-ace-sprint-30-1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 1
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 90,
+  "fields": {
+    "product": 30,
+    "image": "products/gallery/reebok-ace-sprint-30-2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 2
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 91,
+  "fields": {
+    "product": 31,
+    "image": "products/gallery/nike-air-boost-31-0.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 92,
+  "fields": {
+    "product": 31,
+    "image": "products/gallery/nike-air-boost-31-1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 1
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 93,
+  "fields": {
+    "product": 31,
+    "image": "products/gallery/nike-air-boost-31-2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 2
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 94,
+  "fields": {
+    "product": 32,
+    "image": "products/gallery/nike-peak-strike-32-0.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 95,
+  "fields": {
+    "product": 32,
+    "image": "products/gallery/nike-peak-strike-32-1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 1
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 96,
+  "fields": {
+    "product": 32,
+    "image": "products/gallery/nike-peak-strike-32-2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 2
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 97,
+  "fields": {
+    "product": 33,
+    "image": "products/gallery/bata-storm-sprint-33-0.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 98,
+  "fields": {
+    "product": 33,
+    "image": "products/gallery/bata-storm-sprint-33-1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 1
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 99,
+  "fields": {
+    "product": 33,
+    "image": "products/gallery/bata-storm-sprint-33-2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 2
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 100,
+  "fields": {
+    "product": 34,
+    "image": "products/gallery/reebok-ridge-sprint-34-0.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 101,
+  "fields": {
+    "product": 34,
+    "image": "products/gallery/reebok-ridge-sprint-34-1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 1
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 102,
+  "fields": {
+    "product": 34,
+    "image": "products/gallery/reebok-ridge-sprint-34-2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 2
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 103,
+  "fields": {
+    "product": 35,
+    "image": "products/gallery/new-balance-storm-cruiser-35-0.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 104,
+  "fields": {
+    "product": 35,
+    "image": "products/gallery/new-balance-storm-cruiser-35-1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 1
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 105,
+  "fields": {
+    "product": 35,
+    "image": "products/gallery/new-balance-storm-cruiser-35-2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 2
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 106,
+  "fields": {
+    "product": 36,
+    "image": "products/gallery/skechers-swift-racer-36-0.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 107,
+  "fields": {
+    "product": 36,
+    "image": "products/gallery/skechers-swift-racer-36-1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 1
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 108,
+  "fields": {
+    "product": 36,
+    "image": "products/gallery/skechers-swift-racer-36-2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 2
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 109,
+  "fields": {
+    "product": 37,
+    "image": "products/gallery/new-balance-prime-glide-37-0.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 110,
+  "fields": {
+    "product": 37,
+    "image": "products/gallery/new-balance-prime-glide-37-1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 1
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 111,
+  "fields": {
+    "product": 37,
+    "image": "products/gallery/new-balance-prime-glide-37-2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 2
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 112,
+  "fields": {
+    "product": 38,
+    "image": "products/gallery/skechers-flex-trekker-38-0.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 113,
+  "fields": {
+    "product": 38,
+    "image": "products/gallery/skechers-flex-trekker-38-1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 1
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 114,
+  "fields": {
+    "product": 38,
+    "image": "products/gallery/skechers-flex-trekker-38-2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 2
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 115,
+  "fields": {
+    "product": 39,
+    "image": "products/gallery/reebok-blaze-strike-39-0.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 116,
+  "fields": {
+    "product": 39,
+    "image": "products/gallery/reebok-blaze-strike-39-1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 1
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 117,
+  "fields": {
+    "product": 39,
+    "image": "products/gallery/reebok-blaze-strike-39-2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 2
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 118,
+  "fields": {
+    "product": 40,
+    "image": "products/gallery/converse-ultra-voyager-40-0.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 119,
+  "fields": {
+    "product": 40,
+    "image": "products/gallery/converse-ultra-voyager-40-1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 1
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 120,
+  "fields": {
+    "product": 40,
+    "image": "products/gallery/converse-ultra-voyager-40-2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 2
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 121,
+  "fields": {
+    "product": 41,
+    "image": "products/gallery/reebok-pro-court-41-0.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 122,
+  "fields": {
+    "product": 41,
+    "image": "products/gallery/reebok-pro-court-41-1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 1
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 123,
+  "fields": {
+    "product": 41,
+    "image": "products/gallery/reebok-pro-court-41-2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 2
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 124,
+  "fields": {
+    "product": 42,
+    "image": "products/gallery/new-balance-storm-sprint-42-0.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 125,
+  "fields": {
+    "product": 42,
+    "image": "products/gallery/new-balance-storm-sprint-42-1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 1
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 126,
+  "fields": {
+    "product": 42,
+    "image": "products/gallery/new-balance-storm-sprint-42-2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 2
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 127,
+  "fields": {
+    "product": 43,
+    "image": "products/gallery/converse-nova-boost-43-0.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 128,
+  "fields": {
+    "product": 43,
+    "image": "products/gallery/converse-nova-boost-43-1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 1
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 129,
+  "fields": {
+    "product": 43,
+    "image": "products/gallery/converse-nova-boost-43-2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 2
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 130,
+  "fields": {
+    "product": 44,
+    "image": "products/gallery/converse-swift-court-44-0.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 131,
+  "fields": {
+    "product": 44,
+    "image": "products/gallery/converse-swift-court-44-1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 1
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 132,
+  "fields": {
+    "product": 44,
+    "image": "products/gallery/converse-swift-court-44-2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 2
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 133,
+  "fields": {
+    "product": 45,
+    "image": "products/gallery/asics-blaze-sprint-45-0.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 134,
+  "fields": {
+    "product": 45,
+    "image": "products/gallery/asics-blaze-sprint-45-1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 1
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 135,
+  "fields": {
+    "product": 45,
+    "image": "products/gallery/asics-blaze-sprint-45-2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 2
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 136,
+  "fields": {
+    "product": 46,
+    "image": "products/gallery/woodland-storm-trekker-46-0.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 137,
+  "fields": {
+    "product": 46,
+    "image": "products/gallery/woodland-storm-trekker-46-1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 1
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 138,
+  "fields": {
+    "product": 46,
+    "image": "products/gallery/woodland-storm-trekker-46-2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 2
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 139,
+  "fields": {
+    "product": 47,
+    "image": "products/gallery/bata-swift-cruiser-47-0.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 140,
+  "fields": {
+    "product": 47,
+    "image": "products/gallery/bata-swift-cruiser-47-1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 1
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 141,
+  "fields": {
+    "product": 47,
+    "image": "products/gallery/bata-swift-cruiser-47-2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 2
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 142,
+  "fields": {
+    "product": 48,
+    "image": "products/gallery/skechers-prime-glide-48-0.jpg",
+    "alt_text": "",
+    "is_primary": true,
+    "order": 0
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 143,
+  "fields": {
+    "product": 48,
+    "image": "products/gallery/skechers-prime-glide-48-1.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 1
+  }
+},
+{
+  "model": "products.productimage",
+  "pk": 144,
+  "fields": {
+    "product": 48,
+    "image": "products/gallery/skechers-prime-glide-48-2.jpg",
+    "alt_text": "",
+    "is_primary": false,
+    "order": 2
+  }
+},
+{
+  "model": "products.review",
+  "pk": 1,
+  "fields": {
+    "product": 11,
+    "user": 2,
+    "rating": 4,
+    "title": "Would recommend",
+    "comment": "Arrived quickly and looked exactly like the photos.",
+    "created_at": "2026-07-11T13:08:05.368Z",
+    "updated_at": "2026-07-11T13:08:05.368Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 2,
+  "fields": {
+    "product": 39,
+    "user": 17,
+    "rating": 4,
+    "title": "Great fit!",
+    "comment": "Great quality for the price. Would buy again.",
+    "created_at": "2026-07-11T13:08:05.374Z",
+    "updated_at": "2026-07-11T13:08:05.374Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 3,
+  "fields": {
+    "product": 19,
+    "user": 11,
+    "rating": 5,
+    "title": "Would recommend",
+    "comment": "Extremely comfortable, wore them all day with no soreness.",
+    "created_at": "2026-07-11T13:08:05.379Z",
+    "updated_at": "2026-07-11T13:08:05.379Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 4,
+  "fields": {
+    "product": 44,
+    "user": 9,
+    "rating": 4,
+    "title": "",
+    "comment": "Arrived quickly and looked exactly like the photos.",
+    "created_at": "2026-07-11T13:08:05.383Z",
+    "updated_at": "2026-07-11T13:08:05.383Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 5,
+  "fields": {
+    "product": 13,
+    "user": 15,
+    "rating": 3,
+    "title": "",
+    "comment": "Great quality for the price. Would buy again.",
+    "created_at": "2026-07-11T13:08:05.388Z",
+    "updated_at": "2026-07-11T13:08:05.388Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 6,
+  "fields": {
+    "product": 42,
+    "user": 6,
+    "rating": 4,
+    "title": "Love it",
+    "comment": "Extremely comfortable, wore them all day with no soreness.",
+    "created_at": "2026-07-11T13:08:05.393Z",
+    "updated_at": "2026-07-11T13:08:05.393Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 7,
+  "fields": {
+    "product": 4,
+    "user": 7,
+    "rating": 4,
+    "title": "",
+    "comment": "Arrived quickly and looked exactly like the photos.",
+    "created_at": "2026-07-11T13:08:05.397Z",
+    "updated_at": "2026-07-11T13:08:05.397Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 8,
+  "fields": {
+    "product": 37,
+    "user": 11,
+    "rating": 4,
+    "title": "Great fit!",
+    "comment": "Stylish and durable — my daily go-to now.",
+    "created_at": "2026-07-11T13:08:05.401Z",
+    "updated_at": "2026-07-11T13:08:05.401Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 9,
+  "fields": {
+    "product": 45,
+    "user": 11,
+    "rating": 5,
+    "title": "Would recommend",
+    "comment": "Runs slightly small, order half a size up.",
+    "created_at": "2026-07-11T13:08:05.405Z",
+    "updated_at": "2026-07-11T13:08:05.405Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 10,
+  "fields": {
+    "product": 33,
+    "user": 19,
+    "rating": 4,
+    "title": "Would recommend",
+    "comment": "Extremely comfortable, wore them all day with no soreness.",
+    "created_at": "2026-07-11T13:08:05.410Z",
+    "updated_at": "2026-07-11T13:08:05.410Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 11,
+  "fields": {
+    "product": 39,
+    "user": 3,
+    "rating": 4,
+    "title": "Solid purchase",
+    "comment": "Perfect for running, great cushioning.",
+    "created_at": "2026-07-11T13:08:05.414Z",
+    "updated_at": "2026-07-11T13:08:05.414Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 12,
+  "fields": {
+    "product": 17,
+    "user": 2,
+    "rating": 3,
+    "title": "Love it",
+    "comment": "Arrived quickly and looked exactly like the photos.",
+    "created_at": "2026-07-11T13:08:05.418Z",
+    "updated_at": "2026-07-11T13:08:05.418Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 13,
+  "fields": {
+    "product": 37,
+    "user": 20,
+    "rating": 3,
+    "title": "Solid purchase",
+    "comment": "Perfect for running, great cushioning.",
+    "created_at": "2026-07-11T13:08:05.422Z",
+    "updated_at": "2026-07-11T13:08:05.422Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 14,
+  "fields": {
+    "product": 3,
+    "user": 7,
+    "rating": 4,
+    "title": "",
+    "comment": "Arrived quickly and looked exactly like the photos.",
+    "created_at": "2026-07-11T13:08:05.426Z",
+    "updated_at": "2026-07-11T13:08:05.426Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 15,
+  "fields": {
+    "product": 29,
+    "user": 10,
+    "rating": 3,
+    "title": "",
+    "comment": "Stylish and durable — my daily go-to now.",
+    "created_at": "2026-07-11T13:08:05.430Z",
+    "updated_at": "2026-07-11T13:08:05.430Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 16,
+  "fields": {
+    "product": 41,
+    "user": 17,
+    "rating": 3,
+    "title": "Would recommend",
+    "comment": "Runs slightly small, order half a size up.",
+    "created_at": "2026-07-11T13:08:05.435Z",
+    "updated_at": "2026-07-11T13:08:05.435Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 17,
+  "fields": {
+    "product": 27,
+    "user": 12,
+    "rating": 4,
+    "title": "Great fit!",
+    "comment": "Great quality for the price. Would buy again.",
+    "created_at": "2026-07-11T13:08:05.439Z",
+    "updated_at": "2026-07-11T13:08:05.439Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 18,
+  "fields": {
+    "product": 22,
+    "user": 15,
+    "rating": 5,
+    "title": "Would recommend",
+    "comment": "Runs slightly small, order half a size up.",
+    "created_at": "2026-07-11T13:08:05.443Z",
+    "updated_at": "2026-07-11T13:08:05.443Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 19,
+  "fields": {
+    "product": 43,
+    "user": 14,
+    "rating": 5,
+    "title": "Great fit!",
+    "comment": "Stylish and durable — my daily go-to now.",
+    "created_at": "2026-07-11T13:08:05.448Z",
+    "updated_at": "2026-07-11T13:08:05.448Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 20,
+  "fields": {
+    "product": 6,
+    "user": 12,
+    "rating": 4,
+    "title": "Solid purchase",
+    "comment": "Extremely comfortable, wore them all day with no soreness.",
+    "created_at": "2026-07-11T13:08:05.454Z",
+    "updated_at": "2026-07-11T13:08:05.454Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 21,
+  "fields": {
+    "product": 26,
+    "user": 18,
+    "rating": 3,
+    "title": "",
+    "comment": "Stylish and durable — my daily go-to now.",
+    "created_at": "2026-07-11T13:08:05.459Z",
+    "updated_at": "2026-07-11T13:08:05.459Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 22,
+  "fields": {
+    "product": 27,
+    "user": 3,
+    "rating": 3,
+    "title": "",
+    "comment": "Runs slightly small, order half a size up.",
+    "created_at": "2026-07-11T13:08:05.464Z",
+    "updated_at": "2026-07-11T13:08:05.464Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 23,
+  "fields": {
+    "product": 40,
+    "user": 17,
+    "rating": 5,
+    "title": "Would recommend",
+    "comment": "Extremely comfortable, wore them all day with no soreness.",
+    "created_at": "2026-07-11T13:08:05.469Z",
+    "updated_at": "2026-07-11T13:08:05.469Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 24,
+  "fields": {
+    "product": 14,
+    "user": 10,
+    "rating": 5,
+    "title": "Love it",
+    "comment": "Runs slightly small, order half a size up.",
+    "created_at": "2026-07-11T13:08:05.474Z",
+    "updated_at": "2026-07-11T13:08:05.474Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 25,
+  "fields": {
+    "product": 29,
+    "user": 17,
+    "rating": 3,
+    "title": "Great fit!",
+    "comment": "Arrived quickly and looked exactly like the photos.",
+    "created_at": "2026-07-11T13:08:05.478Z",
+    "updated_at": "2026-07-11T13:08:05.478Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 26,
+  "fields": {
+    "product": 39,
+    "user": 9,
+    "rating": 5,
+    "title": "Love it",
+    "comment": "Runs slightly small, order half a size up.",
+    "created_at": "2026-07-11T13:08:05.482Z",
+    "updated_at": "2026-07-11T13:08:05.482Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 27,
+  "fields": {
+    "product": 36,
+    "user": 2,
+    "rating": 5,
+    "title": "Would recommend",
+    "comment": "Extremely comfortable, wore them all day with no soreness.",
+    "created_at": "2026-07-11T13:08:05.487Z",
+    "updated_at": "2026-07-11T13:08:05.487Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 28,
+  "fields": {
+    "product": 15,
+    "user": 5,
+    "rating": 4,
+    "title": "Great fit!",
+    "comment": "Arrived quickly and looked exactly like the photos.",
+    "created_at": "2026-07-11T13:08:05.491Z",
+    "updated_at": "2026-07-11T13:08:05.491Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 29,
+  "fields": {
+    "product": 10,
+    "user": 17,
+    "rating": 5,
+    "title": "Solid purchase",
+    "comment": "Perfect for running, great cushioning.",
+    "created_at": "2026-07-11T13:08:05.497Z",
+    "updated_at": "2026-07-11T13:08:05.497Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 30,
+  "fields": {
+    "product": 46,
+    "user": 10,
+    "rating": 4,
+    "title": "Would recommend",
+    "comment": "Stylish and durable — my daily go-to now.",
+    "created_at": "2026-07-11T13:08:05.501Z",
+    "updated_at": "2026-07-11T13:08:05.501Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 31,
+  "fields": {
+    "product": 16,
+    "user": 16,
+    "rating": 5,
+    "title": "Love it",
+    "comment": "Stylish and durable — my daily go-to now.",
+    "created_at": "2026-07-11T13:08:05.506Z",
+    "updated_at": "2026-07-11T13:08:05.506Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 32,
+  "fields": {
+    "product": 13,
+    "user": 21,
+    "rating": 5,
+    "title": "Love it",
+    "comment": "Extremely comfortable, wore them all day with no soreness.",
+    "created_at": "2026-07-11T13:08:05.510Z",
+    "updated_at": "2026-07-11T13:08:05.510Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 33,
+  "fields": {
+    "product": 18,
+    "user": 15,
+    "rating": 4,
+    "title": "",
+    "comment": "Runs slightly small, order half a size up.",
+    "created_at": "2026-07-11T13:08:05.515Z",
+    "updated_at": "2026-07-11T13:08:05.515Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 34,
+  "fields": {
+    "product": 1,
+    "user": 11,
+    "rating": 5,
+    "title": "Solid purchase",
+    "comment": "Perfect for running, great cushioning.",
+    "created_at": "2026-07-11T13:08:05.520Z",
+    "updated_at": "2026-07-11T13:08:05.520Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 35,
+  "fields": {
+    "product": 38,
+    "user": 17,
+    "rating": 3,
+    "title": "Would recommend",
+    "comment": "Perfect for running, great cushioning.",
+    "created_at": "2026-07-11T13:08:05.524Z",
+    "updated_at": "2026-07-11T13:08:05.524Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 36,
+  "fields": {
+    "product": 31,
+    "user": 13,
+    "rating": 4,
+    "title": "",
+    "comment": "Perfect for running, great cushioning.",
+    "created_at": "2026-07-11T13:08:05.529Z",
+    "updated_at": "2026-07-11T13:08:05.529Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 37,
+  "fields": {
+    "product": 25,
+    "user": 16,
+    "rating": 4,
+    "title": "Love it",
+    "comment": "Arrived quickly and looked exactly like the photos.",
+    "created_at": "2026-07-11T13:08:05.533Z",
+    "updated_at": "2026-07-11T13:08:05.533Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 38,
+  "fields": {
+    "product": 16,
+    "user": 20,
+    "rating": 4,
+    "title": "Love it",
+    "comment": "Stylish and durable — my daily go-to now.",
+    "created_at": "2026-07-11T13:08:05.537Z",
+    "updated_at": "2026-07-11T13:08:05.537Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 39,
+  "fields": {
+    "product": 3,
+    "user": 12,
+    "rating": 5,
+    "title": "Would recommend",
+    "comment": "Arrived quickly and looked exactly like the photos.",
+    "created_at": "2026-07-11T13:08:05.542Z",
+    "updated_at": "2026-07-11T13:08:05.542Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 40,
+  "fields": {
+    "product": 25,
+    "user": 14,
+    "rating": 5,
+    "title": "Love it",
+    "comment": "Stylish and durable — my daily go-to now.",
+    "created_at": "2026-07-11T13:08:05.546Z",
+    "updated_at": "2026-07-11T13:08:05.546Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 41,
+  "fields": {
+    "product": 3,
+    "user": 6,
+    "rating": 5,
+    "title": "",
+    "comment": "Runs slightly small, order half a size up.",
+    "created_at": "2026-07-11T13:08:05.551Z",
+    "updated_at": "2026-07-11T13:08:05.551Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 42,
+  "fields": {
+    "product": 7,
+    "user": 16,
+    "rating": 3,
+    "title": "",
+    "comment": "Stylish and durable — my daily go-to now.",
+    "created_at": "2026-07-11T13:08:05.555Z",
+    "updated_at": "2026-07-11T13:08:05.556Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 43,
+  "fields": {
+    "product": 1,
+    "user": 6,
+    "rating": 4,
+    "title": "Love it",
+    "comment": "Extremely comfortable, wore them all day with no soreness.",
+    "created_at": "2026-07-11T13:08:05.561Z",
+    "updated_at": "2026-07-11T13:08:05.561Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 44,
+  "fields": {
+    "product": 31,
+    "user": 10,
+    "rating": 4,
+    "title": "",
+    "comment": "Arrived quickly and looked exactly like the photos.",
+    "created_at": "2026-07-11T13:08:05.565Z",
+    "updated_at": "2026-07-11T13:08:05.565Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 45,
+  "fields": {
+    "product": 26,
+    "user": 4,
+    "rating": 4,
+    "title": "",
+    "comment": "Stylish and durable — my daily go-to now.",
+    "created_at": "2026-07-11T13:08:05.569Z",
+    "updated_at": "2026-07-11T13:08:05.569Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 46,
+  "fields": {
+    "product": 21,
+    "user": 17,
+    "rating": 5,
+    "title": "Great fit!",
+    "comment": "Perfect for running, great cushioning.",
+    "created_at": "2026-07-11T13:08:05.574Z",
+    "updated_at": "2026-07-11T13:08:05.574Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 47,
+  "fields": {
+    "product": 5,
+    "user": 9,
+    "rating": 5,
+    "title": "Solid purchase",
+    "comment": "Great quality for the price. Would buy again.",
+    "created_at": "2026-07-11T13:08:05.578Z",
+    "updated_at": "2026-07-11T13:08:05.578Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 48,
+  "fields": {
+    "product": 48,
+    "user": 4,
+    "rating": 4,
+    "title": "Great fit!",
+    "comment": "Arrived quickly and looked exactly like the photos.",
+    "created_at": "2026-07-11T13:08:05.582Z",
+    "updated_at": "2026-07-11T13:08:05.582Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 49,
+  "fields": {
+    "product": 46,
+    "user": 5,
+    "rating": 4,
+    "title": "Love it",
+    "comment": "Arrived quickly and looked exactly like the photos.",
+    "created_at": "2026-07-11T13:08:05.586Z",
+    "updated_at": "2026-07-11T13:08:05.586Z"
+  }
+},
+{
+  "model": "products.review",
+  "pk": 50,
+  "fields": {
+    "product": 20,
+    "user": 2,
+    "rating": 3,
+    "title": "Solid purchase",
+    "comment": "Extremely comfortable, wore them all day with no soreness.",
+    "created_at": "2026-07-11T13:08:05.591Z",
+    "updated_at": "2026-07-11T13:08:05.591Z"
+  }
+},
+{
+  "model": "products.coupon",
+  "pk": 1,
+  "fields": {
+    "code": "WELCOME10",
+    "discount_type": "percent",
+    "discount_value": "10.00",
+    "minimum_order_amount": "999.00",
+    "valid_from": "2026-07-10T13:08:05.848Z",
+    "valid_to": "2026-10-09T13:08:05.848Z",
+    "usage_limit": 500,
+    "used_count": 0,
+    "is_active": true
+  }
+},
+{
+  "model": "products.coupon",
+  "pk": 2,
+  "fields": {
+    "code": "FLAT200",
+    "discount_type": "flat",
+    "discount_value": "200.00",
+    "minimum_order_amount": "1999.00",
+    "valid_from": "2026-07-10T13:08:05.853Z",
+    "valid_to": "2026-10-09T13:08:05.853Z",
+    "usage_limit": 200,
+    "used_count": 0,
+    "is_active": true
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 1,
+  "fields": {
+    "user": 1,
+    "phone": "",
+    "avatar": "",
+    "date_of_birth": null,
+    "gender": "",
+    "newsletter_opt_in": true,
+    "created_at": "2026-07-11T13:07:10.608Z"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 2,
+  "fields": {
+    "user": 2,
+    "phone": "9876510000",
+    "avatar": "",
+    "date_of_birth": null,
+    "gender": "",
+    "newsletter_opt_in": true,
+    "created_at": "2026-07-11T13:07:53.900Z"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 3,
+  "fields": {
+    "user": 3,
+    "phone": "9876510001",
+    "avatar": "",
+    "date_of_birth": null,
+    "gender": "",
+    "newsletter_opt_in": true,
+    "created_at": "2026-07-11T13:07:54.498Z"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 4,
+  "fields": {
+    "user": 4,
+    "phone": "9876510002",
+    "avatar": "",
+    "date_of_birth": null,
+    "gender": "",
+    "newsletter_opt_in": true,
+    "created_at": "2026-07-11T13:07:55.103Z"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 5,
+  "fields": {
+    "user": 5,
+    "phone": "9876510003",
+    "avatar": "",
+    "date_of_birth": null,
+    "gender": "",
+    "newsletter_opt_in": true,
+    "created_at": "2026-07-11T13:07:55.702Z"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 6,
+  "fields": {
+    "user": 6,
+    "phone": "9876510004",
+    "avatar": "",
+    "date_of_birth": null,
+    "gender": "",
+    "newsletter_opt_in": true,
+    "created_at": "2026-07-11T13:07:56.299Z"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 7,
+  "fields": {
+    "user": 7,
+    "phone": "9876510005",
+    "avatar": "",
+    "date_of_birth": null,
+    "gender": "",
+    "newsletter_opt_in": true,
+    "created_at": "2026-07-11T13:07:56.895Z"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 8,
+  "fields": {
+    "user": 8,
+    "phone": "9876510006",
+    "avatar": "",
+    "date_of_birth": null,
+    "gender": "",
+    "newsletter_opt_in": true,
+    "created_at": "2026-07-11T13:07:57.493Z"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 9,
+  "fields": {
+    "user": 9,
+    "phone": "9876510007",
+    "avatar": "",
+    "date_of_birth": null,
+    "gender": "",
+    "newsletter_opt_in": true,
+    "created_at": "2026-07-11T13:07:58.088Z"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 10,
+  "fields": {
+    "user": 10,
+    "phone": "9876510008",
+    "avatar": "",
+    "date_of_birth": null,
+    "gender": "",
+    "newsletter_opt_in": true,
+    "created_at": "2026-07-11T13:07:58.697Z"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 11,
+  "fields": {
+    "user": 11,
+    "phone": "9876510009",
+    "avatar": "",
+    "date_of_birth": null,
+    "gender": "",
+    "newsletter_opt_in": true,
+    "created_at": "2026-07-11T13:07:59.286Z"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 12,
+  "fields": {
+    "user": 12,
+    "phone": "9876510010",
+    "avatar": "",
+    "date_of_birth": null,
+    "gender": "",
+    "newsletter_opt_in": true,
+    "created_at": "2026-07-11T13:07:59.881Z"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 13,
+  "fields": {
+    "user": 13,
+    "phone": "9876510011",
+    "avatar": "",
+    "date_of_birth": null,
+    "gender": "",
+    "newsletter_opt_in": true,
+    "created_at": "2026-07-11T13:08:00.485Z"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 14,
+  "fields": {
+    "user": 14,
+    "phone": "9876510012",
+    "avatar": "",
+    "date_of_birth": null,
+    "gender": "",
+    "newsletter_opt_in": true,
+    "created_at": "2026-07-11T13:08:01.147Z"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 15,
+  "fields": {
+    "user": 15,
+    "phone": "9876510013",
+    "avatar": "",
+    "date_of_birth": null,
+    "gender": "",
+    "newsletter_opt_in": true,
+    "created_at": "2026-07-11T13:08:01.765Z"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 16,
+  "fields": {
+    "user": 16,
+    "phone": "9876510014",
+    "avatar": "",
+    "date_of_birth": null,
+    "gender": "",
+    "newsletter_opt_in": true,
+    "created_at": "2026-07-11T13:08:02.373Z"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 17,
+  "fields": {
+    "user": 17,
+    "phone": "9876510015",
+    "avatar": "",
+    "date_of_birth": null,
+    "gender": "",
+    "newsletter_opt_in": true,
+    "created_at": "2026-07-11T13:08:02.987Z"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 18,
+  "fields": {
+    "user": 18,
+    "phone": "9876510016",
+    "avatar": "",
+    "date_of_birth": null,
+    "gender": "",
+    "newsletter_opt_in": true,
+    "created_at": "2026-07-11T13:08:03.586Z"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 19,
+  "fields": {
+    "user": 19,
+    "phone": "9876510017",
+    "avatar": "",
+    "date_of_birth": null,
+    "gender": "",
+    "newsletter_opt_in": true,
+    "created_at": "2026-07-11T13:08:04.179Z"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 20,
+  "fields": {
+    "user": 20,
+    "phone": "9876510018",
+    "avatar": "",
+    "date_of_birth": null,
+    "gender": "",
+    "newsletter_opt_in": true,
+    "created_at": "2026-07-11T13:08:04.775Z"
+  }
+},
+{
+  "model": "accounts.profile",
+  "pk": 21,
+  "fields": {
+    "user": 21,
+    "phone": "9876510019",
+    "avatar": "",
+    "date_of_birth": null,
+    "gender": "",
+    "newsletter_opt_in": true,
+    "created_at": "2026-07-11T13:08:05.363Z"
+  }
+},
+{
+  "model": "accounts.address",
+  "pk": 1,
+  "fields": {
+    "user": 2,
+    "address_type": "shipping",
+    "full_name": "Test Customer",
+    "phone": "9876543210",
+    "line1": "123 Test Street",
+    "line2": "",
+    "city": "Kochi",
+    "state": "Kerala",
+    "postal_code": "682001",
+    "country": "India",
+    "is_default": true
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 1,
+  "fields": {
+    "order_number": "SHO2607111422",
+    "user": 2,
+    "full_name": "Kiran Kumar",
+    "phone": "9876543210",
+    "email": "customer1@example.com",
+    "shipping_line1": "123 MG Road",
+    "shipping_line2": "",
+    "shipping_city": "Kochi",
+    "shipping_state": "Kerala",
+    "shipping_postal_code": "682001",
+    "shipping_country": "India",
+    "coupon": null,
+    "subtotal": "7597.00",
+    "discount_amount": "0.00",
+    "shipping_charge": "0.00",
+    "tax_amount": "379.85",
+    "grand_total": "7976.85",
+    "payment_method": "cod",
+    "payment_status": "pending",
+    "status": "delivered",
+    "created_at": "2026-07-11T13:08:05.857Z",
+    "updated_at": "2026-07-11T13:08:05.857Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 2,
+  "fields": {
+    "order_number": "SHO2607114356",
+    "user": 3,
+    "full_name": "Priya Varma",
+    "phone": "9876543210",
+    "email": "customer2@example.com",
+    "shipping_line1": "123 MG Road",
+    "shipping_line2": "",
+    "shipping_city": "Kochi",
+    "shipping_state": "Kerala",
+    "shipping_postal_code": "682001",
+    "shipping_country": "India",
+    "coupon": null,
+    "subtotal": "4798.00",
+    "discount_amount": "0.00",
+    "shipping_charge": "0.00",
+    "tax_amount": "239.90",
+    "grand_total": "5037.90",
+    "payment_method": "stripe",
+    "payment_status": "paid",
+    "status": "pending",
+    "created_at": "2026-07-11T13:08:05.874Z",
+    "updated_at": "2026-07-11T13:08:05.874Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 3,
+  "fields": {
+    "order_number": "SHO2607111332",
+    "user": 4,
+    "full_name": "Arjun Menon",
+    "phone": "9876543210",
+    "email": "customer3@example.com",
+    "shipping_line1": "123 MG Road",
+    "shipping_line2": "",
+    "shipping_city": "Kochi",
+    "shipping_state": "Kerala",
+    "shipping_postal_code": "682001",
+    "shipping_country": "India",
+    "coupon": null,
+    "subtotal": "5997.00",
+    "discount_amount": "0.00",
+    "shipping_charge": "0.00",
+    "tax_amount": "299.85",
+    "grand_total": "6296.85",
+    "payment_method": "cod",
+    "payment_status": "pending",
+    "status": "shipped",
+    "created_at": "2026-07-11T13:08:05.884Z",
+    "updated_at": "2026-07-11T13:08:05.884Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 4,
+  "fields": {
+    "order_number": "SHO2607115670",
+    "user": 4,
+    "full_name": "Arjun Menon",
+    "phone": "9876543210",
+    "email": "customer3@example.com",
+    "shipping_line1": "123 MG Road",
+    "shipping_line2": "",
+    "shipping_city": "Kochi",
+    "shipping_state": "Kerala",
+    "shipping_postal_code": "682001",
+    "shipping_country": "India",
+    "coupon": null,
+    "subtotal": "6697.00",
+    "discount_amount": "0.00",
+    "shipping_charge": "0.00",
+    "tax_amount": "334.85",
+    "grand_total": "7031.85",
+    "payment_method": "razorpay",
+    "payment_status": "pending",
+    "status": "pending",
+    "created_at": "2026-07-11T13:08:05.900Z",
+    "updated_at": "2026-07-11T13:08:05.900Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 5,
+  "fields": {
+    "order_number": "SHO2607116667",
+    "user": 5,
+    "full_name": "Rahul Varma",
+    "phone": "9876543210",
+    "email": "customer4@example.com",
+    "shipping_line1": "123 MG Road",
+    "shipping_line2": "",
+    "shipping_city": "Kochi",
+    "shipping_state": "Kerala",
+    "shipping_postal_code": "682001",
+    "shipping_country": "India",
+    "coupon": null,
+    "subtotal": "11597.00",
+    "discount_amount": "0.00",
+    "shipping_charge": "0.00",
+    "tax_amount": "579.85",
+    "grand_total": "12176.85",
+    "payment_method": "stripe",
+    "payment_status": "pending",
+    "status": "confirmed",
+    "created_at": "2026-07-11T13:08:05.925Z",
+    "updated_at": "2026-07-11T13:08:05.925Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 6,
+  "fields": {
+    "order_number": "SHO2607117031",
+    "user": 5,
+    "full_name": "Rahul Varma",
+    "phone": "9876543210",
+    "email": "customer4@example.com",
+    "shipping_line1": "123 MG Road",
+    "shipping_line2": "",
+    "shipping_city": "Kochi",
+    "shipping_state": "Kerala",
+    "shipping_postal_code": "682001",
+    "shipping_country": "India",
+    "coupon": null,
+    "subtotal": "9997.00",
+    "discount_amount": "0.00",
+    "shipping_charge": "0.00",
+    "tax_amount": "499.85",
+    "grand_total": "10496.85",
+    "payment_method": "cod",
+    "payment_status": "paid",
+    "status": "processing",
+    "created_at": "2026-07-11T13:08:05.945Z",
+    "updated_at": "2026-07-11T13:08:05.945Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 7,
+  "fields": {
+    "order_number": "SHO2607111595",
+    "user": 5,
+    "full_name": "Rahul Varma",
+    "phone": "9876543210",
+    "email": "customer4@example.com",
+    "shipping_line1": "123 MG Road",
+    "shipping_line2": "",
+    "shipping_city": "Kochi",
+    "shipping_state": "Kerala",
+    "shipping_postal_code": "682001",
+    "shipping_country": "India",
+    "coupon": null,
+    "subtotal": "7798.00",
+    "discount_amount": "0.00",
+    "shipping_charge": "0.00",
+    "tax_amount": "389.90",
+    "grand_total": "8187.90",
+    "payment_method": "razorpay",
+    "payment_status": "paid",
+    "status": "confirmed",
+    "created_at": "2026-07-11T13:08:05.961Z",
+    "updated_at": "2026-07-11T13:08:05.961Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 8,
+  "fields": {
+    "order_number": "SHO2607118407",
+    "user": 6,
+    "full_name": "Anand Nair",
+    "phone": "9876543210",
+    "email": "customer5@example.com",
+    "shipping_line1": "123 MG Road",
+    "shipping_line2": "",
+    "shipping_city": "Kochi",
+    "shipping_state": "Kerala",
+    "shipping_postal_code": "682001",
+    "shipping_country": "India",
+    "coupon": null,
+    "subtotal": "1999.00",
+    "discount_amount": "0.00",
+    "shipping_charge": "0.00",
+    "tax_amount": "99.95",
+    "grand_total": "2098.95",
+    "payment_method": "razorpay",
+    "payment_status": "pending",
+    "status": "processing",
+    "created_at": "2026-07-11T13:08:05.972Z",
+    "updated_at": "2026-07-11T13:08:05.972Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 9,
+  "fields": {
+    "order_number": "SHO2607113705",
+    "user": 6,
+    "full_name": "Anand Nair",
+    "phone": "9876543210",
+    "email": "customer5@example.com",
+    "shipping_line1": "123 MG Road",
+    "shipping_line2": "",
+    "shipping_city": "Kochi",
+    "shipping_state": "Kerala",
+    "shipping_postal_code": "682001",
+    "shipping_country": "India",
+    "coupon": null,
+    "subtotal": "3199.00",
+    "discount_amount": "0.00",
+    "shipping_charge": "0.00",
+    "tax_amount": "159.95",
+    "grand_total": "3358.95",
+    "payment_method": "stripe",
+    "payment_status": "pending",
+    "status": "delivered",
+    "created_at": "2026-07-11T13:08:05.980Z",
+    "updated_at": "2026-07-11T13:08:05.980Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 10,
+  "fields": {
+    "order_number": "SHO2607113636",
+    "user": 7,
+    "full_name": "Sneha Nair",
+    "phone": "9876543210",
+    "email": "customer6@example.com",
+    "shipping_line1": "123 MG Road",
+    "shipping_line2": "",
+    "shipping_city": "Kochi",
+    "shipping_state": "Kerala",
+    "shipping_postal_code": "682001",
+    "shipping_country": "India",
+    "coupon": null,
+    "subtotal": "7998.00",
+    "discount_amount": "0.00",
+    "shipping_charge": "0.00",
+    "tax_amount": "399.90",
+    "grand_total": "8397.90",
+    "payment_method": "stripe",
+    "payment_status": "pending",
+    "status": "delivered",
+    "created_at": "2026-07-11T13:08:05.987Z",
+    "updated_at": "2026-07-11T13:08:05.987Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 11,
+  "fields": {
+    "order_number": "SHO2607112089",
+    "user": 7,
+    "full_name": "Sneha Nair",
+    "phone": "9876543210",
+    "email": "customer6@example.com",
+    "shipping_line1": "123 MG Road",
+    "shipping_line2": "",
+    "shipping_city": "Kochi",
+    "shipping_state": "Kerala",
+    "shipping_postal_code": "682001",
+    "shipping_country": "India",
+    "coupon": null,
+    "subtotal": "5498.00",
+    "discount_amount": "0.00",
+    "shipping_charge": "0.00",
+    "tax_amount": "274.90",
+    "grand_total": "5772.90",
+    "payment_method": "stripe",
+    "payment_status": "pending",
+    "status": "delivered",
+    "created_at": "2026-07-11T13:08:05.998Z",
+    "updated_at": "2026-07-11T13:08:05.998Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 12,
+  "fields": {
+    "order_number": "SHO2607119125",
+    "user": 8,
+    "full_name": "Vishnu Kumar",
+    "phone": "9876543210",
+    "email": "customer7@example.com",
+    "shipping_line1": "123 MG Road",
+    "shipping_line2": "",
+    "shipping_city": "Kochi",
+    "shipping_state": "Kerala",
+    "shipping_postal_code": "682001",
+    "shipping_country": "India",
+    "coupon": null,
+    "subtotal": "16797.00",
+    "discount_amount": "0.00",
+    "shipping_charge": "0.00",
+    "tax_amount": "839.85",
+    "grand_total": "17636.85",
+    "payment_method": "cod",
+    "payment_status": "paid",
+    "status": "processing",
+    "created_at": "2026-07-11T13:08:06.009Z",
+    "updated_at": "2026-07-11T13:08:06.009Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 13,
+  "fields": {
+    "order_number": "SHO2607117140",
+    "user": 8,
+    "full_name": "Vishnu Kumar",
+    "phone": "9876543210",
+    "email": "customer7@example.com",
+    "shipping_line1": "123 MG Road",
+    "shipping_line2": "",
+    "shipping_city": "Kochi",
+    "shipping_state": "Kerala",
+    "shipping_postal_code": "682001",
+    "shipping_country": "India",
+    "coupon": null,
+    "subtotal": "6498.00",
+    "discount_amount": "0.00",
+    "shipping_charge": "0.00",
+    "tax_amount": "324.90",
+    "grand_total": "6822.90",
+    "payment_method": "stripe",
+    "payment_status": "pending",
+    "status": "delivered",
+    "created_at": "2026-07-11T13:08:06.024Z",
+    "updated_at": "2026-07-11T13:08:06.024Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 14,
+  "fields": {
+    "order_number": "SHO2607114980",
+    "user": 9,
+    "full_name": "Athira Varma",
+    "phone": "9876543210",
+    "email": "customer8@example.com",
+    "shipping_line1": "123 MG Road",
+    "shipping_line2": "",
+    "shipping_city": "Kochi",
+    "shipping_state": "Kerala",
+    "shipping_postal_code": "682001",
+    "shipping_country": "India",
+    "coupon": null,
+    "subtotal": "10997.00",
+    "discount_amount": "0.00",
+    "shipping_charge": "0.00",
+    "tax_amount": "549.85",
+    "grand_total": "11546.85",
+    "payment_method": "stripe",
+    "payment_status": "pending",
+    "status": "confirmed",
+    "created_at": "2026-07-11T13:08:06.035Z",
+    "updated_at": "2026-07-11T13:08:06.035Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 15,
+  "fields": {
+    "order_number": "SHO2607112998",
+    "user": 9,
+    "full_name": "Athira Varma",
+    "phone": "9876543210",
+    "email": "customer8@example.com",
+    "shipping_line1": "123 MG Road",
+    "shipping_line2": "",
+    "shipping_city": "Kochi",
+    "shipping_state": "Kerala",
+    "shipping_postal_code": "682001",
+    "shipping_country": "India",
+    "coupon": null,
+    "subtotal": "12497.00",
+    "discount_amount": "0.00",
+    "shipping_charge": "0.00",
+    "tax_amount": "624.85",
+    "grand_total": "13121.85",
+    "payment_method": "razorpay",
+    "payment_status": "paid",
+    "status": "shipped",
+    "created_at": "2026-07-11T13:08:06.049Z",
+    "updated_at": "2026-07-11T13:08:06.049Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 16,
+  "fields": {
+    "order_number": "SHO2607117215",
+    "user": 10,
+    "full_name": "Athira Menon",
+    "phone": "9876543210",
+    "email": "customer9@example.com",
+    "shipping_line1": "123 MG Road",
+    "shipping_line2": "",
+    "shipping_city": "Kochi",
+    "shipping_state": "Kerala",
+    "shipping_postal_code": "682001",
+    "shipping_country": "India",
+    "coupon": null,
+    "subtotal": "8497.00",
+    "discount_amount": "0.00",
+    "shipping_charge": "0.00",
+    "tax_amount": "424.85",
+    "grand_total": "8921.85",
+    "payment_method": "stripe",
+    "payment_status": "paid",
+    "status": "pending",
+    "created_at": "2026-07-11T13:08:06.064Z",
+    "updated_at": "2026-07-11T13:08:06.064Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 17,
+  "fields": {
+    "order_number": "SHO2607110811",
+    "user": 11,
+    "full_name": "Vishnu Kumar",
+    "phone": "9876543210",
+    "email": "customer10@example.com",
+    "shipping_line1": "123 MG Road",
+    "shipping_line2": "",
+    "shipping_city": "Kochi",
+    "shipping_state": "Kerala",
+    "shipping_postal_code": "682001",
+    "shipping_country": "India",
+    "coupon": null,
+    "subtotal": "12997.00",
+    "discount_amount": "0.00",
+    "shipping_charge": "0.00",
+    "tax_amount": "649.85",
+    "grand_total": "13646.85",
+    "payment_method": "razorpay",
+    "payment_status": "paid",
+    "status": "delivered",
+    "created_at": "2026-07-11T13:08:06.075Z",
+    "updated_at": "2026-07-11T13:08:06.075Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 18,
+  "fields": {
+    "order_number": "SHO2607111249",
+    "user": 2,
+    "full_name": "Test Customer",
+    "phone": "9876543210",
+    "email": "customer1@example.com",
+    "shipping_line1": "123 Test Street",
+    "shipping_line2": "",
+    "shipping_city": "Kochi",
+    "shipping_state": "Kerala",
+    "shipping_postal_code": "682001",
+    "shipping_country": "India",
+    "coupon": null,
+    "subtotal": "9598.00",
+    "discount_amount": "0.00",
+    "shipping_charge": "0.00",
+    "tax_amount": "479.90",
+    "grand_total": "10077.90",
+    "payment_method": "cod",
+    "payment_status": "pending",
+    "status": "pending",
+    "created_at": "2026-07-11T13:08:16.745Z",
+    "updated_at": "2026-07-11T13:08:16.745Z"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 1,
+  "fields": {
+    "order": 1,
+    "product": 25,
+    "product_name": "Nike Nova Sprint 25",
+    "product_sku": "SHO-1024",
+    "price": "2399.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 2,
+  "fields": {
+    "order": 1,
+    "product": 40,
+    "product_name": "Converse Ultra Voyager 40",
+    "product_sku": "SHO-1039",
+    "price": "1999.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 3,
+  "fields": {
+    "order": 1,
+    "product": 44,
+    "product_name": "Converse Swift Court 44",
+    "product_sku": "SHO-1043",
+    "price": "3199.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 4,
+  "fields": {
+    "order": 2,
+    "product": 19,
+    "product_name": "ASICS Ghost Voyager 19",
+    "product_sku": "SHO-1018",
+    "price": "1599.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 5,
+  "fields": {
+    "order": 2,
+    "product": 44,
+    "product_name": "Converse Swift Court 44",
+    "product_sku": "SHO-1043",
+    "price": "3199.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 6,
+  "fields": {
+    "order": 3,
+    "product": 17,
+    "product_name": "Woodland Pro Glide 17",
+    "product_sku": "SHO-1016",
+    "price": "1999.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 7,
+  "fields": {
+    "order": 3,
+    "product": 30,
+    "product_name": "Reebok Ace Sprint 30",
+    "product_sku": "SHO-1029",
+    "price": "2499.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 8,
+  "fields": {
+    "order": 3,
+    "product": 20,
+    "product_name": "Skechers Ghost Cruiser 20",
+    "product_sku": "SHO-1019",
+    "price": "1499.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 9,
+  "fields": {
+    "order": 4,
+    "product": 19,
+    "product_name": "ASICS Ghost Voyager 19",
+    "product_sku": "SHO-1018",
+    "price": "1599.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 10,
+  "fields": {
+    "order": 4,
+    "product": 2,
+    "product_name": "Adidas Storm Trekker 2",
+    "product_sku": "SHO-1001",
+    "price": "3499.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 11,
+  "fields": {
+    "order": 4,
+    "product": 43,
+    "product_name": "Converse Nova Boost 43",
+    "product_sku": "SHO-1042",
+    "price": "1599.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 12,
+  "fields": {
+    "order": 5,
+    "product": 32,
+    "product_name": "Nike Peak Strike 32",
+    "product_sku": "SHO-1031",
+    "price": "3999.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 13,
+  "fields": {
+    "order": 5,
+    "product": 19,
+    "product_name": "ASICS Ghost Voyager 19",
+    "product_sku": "SHO-1018",
+    "price": "1599.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 14,
+  "fields": {
+    "order": 5,
+    "product": 15,
+    "product_name": "Reebok Ultra Racer 15",
+    "product_sku": "SHO-1014",
+    "price": "5999.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 15,
+  "fields": {
+    "order": 6,
+    "product": 44,
+    "product_name": "Converse Swift Court 44",
+    "product_sku": "SHO-1043",
+    "price": "3199.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 16,
+  "fields": {
+    "order": 6,
+    "product": 9,
+    "product_name": "Nike Ghost Trekker 9",
+    "product_sku": "SHO-1008",
+    "price": "4799.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 17,
+  "fields": {
+    "order": 6,
+    "product": 41,
+    "product_name": "Reebok Pro Court 41",
+    "product_sku": "SHO-1040",
+    "price": "1999.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 18,
+  "fields": {
+    "order": 7,
+    "product": 21,
+    "product_name": "Bata Ignite Trekker 21",
+    "product_sku": "SHO-1020",
+    "price": "2999.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 19,
+  "fields": {
+    "order": 7,
+    "product": 48,
+    "product_name": "Skechers Prime Glide 48",
+    "product_sku": "SHO-1047",
+    "price": "4799.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 20,
+  "fields": {
+    "order": 8,
+    "product": 17,
+    "product_name": "Woodland Pro Glide 17",
+    "product_sku": "SHO-1016",
+    "price": "1999.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 21,
+  "fields": {
+    "order": 9,
+    "product": 44,
+    "product_name": "Converse Swift Court 44",
+    "product_sku": "SHO-1043",
+    "price": "3199.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 22,
+  "fields": {
+    "order": 10,
+    "product": 44,
+    "product_name": "Converse Swift Court 44",
+    "product_sku": "SHO-1043",
+    "price": "3199.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 23,
+  "fields": {
+    "order": 10,
+    "product": 48,
+    "product_name": "Skechers Prime Glide 48",
+    "product_sku": "SHO-1047",
+    "price": "4799.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 24,
+  "fields": {
+    "order": 11,
+    "product": 2,
+    "product_name": "Adidas Storm Trekker 2",
+    "product_sku": "SHO-1001",
+    "price": "3499.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 25,
+  "fields": {
+    "order": 11,
+    "product": 40,
+    "product_name": "Converse Ultra Voyager 40",
+    "product_sku": "SHO-1039",
+    "price": "1999.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 26,
+  "fields": {
+    "order": 12,
+    "product": 27,
+    "product_name": "New Balance Storm Trekker 27",
+    "product_sku": "SHO-1026",
+    "price": "4999.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 27,
+  "fields": {
+    "order": 12,
+    "product": 8,
+    "product_name": "ASICS Air Court 8",
+    "product_sku": "SHO-1007",
+    "price": "6999.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 28,
+  "fields": {
+    "order": 12,
+    "product": 9,
+    "product_name": "Nike Ghost Trekker 9",
+    "product_sku": "SHO-1008",
+    "price": "4799.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 29,
+  "fields": {
+    "order": 13,
+    "product": 30,
+    "product_name": "Reebok Ace Sprint 30",
+    "product_sku": "SHO-1029",
+    "price": "2499.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 30,
+  "fields": {
+    "order": 13,
+    "product": 24,
+    "product_name": "Puma Swift Glide 24",
+    "product_sku": "SHO-1023",
+    "price": "3999.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 31,
+  "fields": {
+    "order": 14,
+    "product": 27,
+    "product_name": "New Balance Storm Trekker 27",
+    "product_sku": "SHO-1026",
+    "price": "4999.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 32,
+  "fields": {
+    "order": 14,
+    "product": 18,
+    "product_name": "Bata Ghost Cruiser 18",
+    "product_sku": "SHO-1017",
+    "price": "3999.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 33,
+  "fields": {
+    "order": 14,
+    "product": 3,
+    "product_name": "Reebok Swift Court 3",
+    "product_sku": "SHO-1002",
+    "price": "1999.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 34,
+  "fields": {
+    "order": 15,
+    "product": 24,
+    "product_name": "Puma Swift Glide 24",
+    "product_sku": "SHO-1023",
+    "price": "3999.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 35,
+  "fields": {
+    "order": 15,
+    "product": 35,
+    "product_name": "New Balance Storm Cruiser 35",
+    "product_sku": "SHO-1034",
+    "price": "5999.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 36,
+  "fields": {
+    "order": 15,
+    "product": 42,
+    "product_name": "New Balance Storm Sprint 42",
+    "product_sku": "SHO-1041",
+    "price": "2499.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 37,
+  "fields": {
+    "order": 16,
+    "product": 14,
+    "product_name": "Woodland Trail Glide 14",
+    "product_sku": "SHO-1013",
+    "price": "3999.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 38,
+  "fields": {
+    "order": 16,
+    "product": 42,
+    "product_name": "New Balance Storm Sprint 42",
+    "product_sku": "SHO-1041",
+    "price": "2499.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 39,
+  "fields": {
+    "order": 16,
+    "product": 41,
+    "product_name": "Reebok Pro Court 41",
+    "product_sku": "SHO-1040",
+    "price": "1999.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 40,
+  "fields": {
+    "order": 17,
+    "product": 14,
+    "product_name": "Woodland Trail Glide 14",
+    "product_sku": "SHO-1013",
+    "price": "3999.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 41,
+  "fields": {
+    "order": 17,
+    "product": 38,
+    "product_name": "Skechers Flex Trekker 38",
+    "product_sku": "SHO-1037",
+    "price": "2999.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 42,
+  "fields": {
+    "order": 17,
+    "product": 15,
+    "product_name": "Reebok Ultra Racer 15",
+    "product_sku": "SHO-1014",
+    "price": "5999.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 43,
+  "fields": {
+    "order": 18,
+    "product": 48,
+    "product_name": "Skechers Prime Glide 48",
+    "product_sku": "SHO-1047",
+    "price": "4799.00",
+    "quantity": 2
+  }
+},
+{
+  "model": "cart.cart",
+  "pk": 1,
+  "fields": {
+    "user": 1,
+    "created_at": "2026-07-11T13:07:10.570Z",
+    "updated_at": "2026-07-11T13:07:10.570Z"
+  }
+},
+{
+  "model": "cart.cart",
+  "pk": 2,
+  "fields": {
+    "user": 2,
+    "created_at": "2026-07-11T13:08:16.670Z",
+    "updated_at": "2026-07-11T13:08:16.670Z"
+  }
+},
+{
+  "model": "wishlist.wishlist",
+  "pk": 1,
+  "fields": {
+    "user": 2,
+    "product": 48,
+    "added_at": "2026-07-11T13:08:16.698Z"
+  }
+}
+]

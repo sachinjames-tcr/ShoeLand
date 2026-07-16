@@ -1,0 +1,78 @@
+{% extends "base.html" %}
+{% load humanize %}
+{% block title %}Checkout | {{ SITE_NAME }}{% endblock %}
+{% block content %}
+
+<div class="breadcrumb-bar">
+  <div class="container">
+    <h1>Checkout</h1>
+    <nav aria-label="breadcrumb"><ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="{% url 'core:home' %}">Home</a></li>
+      <li class="breadcrumb-item"><a href="{% url 'cart:view_cart' %}">Cart</a></li>
+      <li class="breadcrumb-item active">Checkout</li>
+    </ol></nav>
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+    <form method="post" class="row g-4 needs-validation" novalidate>
+      {% csrf_token %}
+      <div class="col-lg-7">
+        <div class="card-shoeland p-4 mb-4">
+          <h5 class="mb-3"><i class="bi bi-truck"></i> Shipping Address</h5>
+          <div class="row g-3">
+            <div class="col-md-6"><label class="form-label">Full Name</label>{{ form.full_name }}</div>
+            <div class="col-md-6"><label class="form-label">Phone</label>{{ form.phone }}</div>
+            <div class="col-12"><label class="form-label">Email</label>{{ form.email }}</div>
+            <div class="col-12"><label class="form-label">Address Line 1</label>{{ form.line1 }}</div>
+            <div class="col-12"><label class="form-label">Address Line 2</label>{{ form.line2 }}</div>
+            <div class="col-md-4"><label class="form-label">City</label>{{ form.city }}</div>
+            <div class="col-md-4"><label class="form-label">State</label>{{ form.state }}</div>
+            <div class="col-md-4"><label class="form-label">Postal Code</label>{{ form.postal_code }}</div>
+            <div class="col-md-6"><label class="form-label">Country</label>{{ form.country }}</div>
+            <div class="col-12 form-check mt-2">
+              {{ form.save_address }}
+              <label class="form-check-label" for="{{ form.save_address.id_for_label }}">Save this address for future orders</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="card-shoeland p-4">
+          <h5 class="mb-3"><i class="bi bi-credit-card"></i> Payment Method</h5>
+          {% for radio in form.payment_method %}
+            <div class="form-check mb-2">
+              {{ radio.tag }}
+              <label class="form-check-label" for="{{ radio.id_for_label }}">{{ radio.choice_label }}</label>
+            </div>
+          {% endfor %}
+          <p class="text-muted small mt-2 mb-0"><i class="bi bi-info-circle"></i> Razorpay and Stripe are shown as placeholder integrations for this demo project — no real payment is processed.</p>
+        </div>
+      </div>
+
+      <div class="col-lg-5">
+        <div class="card-shoeland p-4">
+          <h5 class="mb-3">Order Summary</h5>
+          {% for item in cart_items %}
+            <div class="d-flex justify-content-between mb-2 small">
+              <span>{{ item.product.name }} &times; {{ item.quantity }}</span>
+              <span>₹{{ item.total_price|intcomma }}</span>
+            </div>
+          {% endfor %}
+          <hr>
+          <div class="d-flex justify-content-between mb-2"><span>Subtotal</span><span>₹{{ subtotal|intcomma }}</span></div>
+          {% if coupon %}
+            <div class="d-flex justify-content-between mb-2 text-success"><span>Coupon ({{ coupon.code }})</span><span>-₹{{ discount|intcomma }}</span></div>
+          {% endif %}
+          <div class="d-flex justify-content-between mb-2"><span>Shipping</span><span>{% if shipping == 0 %}FREE{% else %}₹{{ shipping|intcomma }}{% endif %}</span></div>
+          <div class="d-flex justify-content-between mb-2"><span>Tax</span><span>₹{{ tax|intcomma }}</span></div>
+          <hr>
+          <div class="d-flex justify-content-between fw-bold fs-5 mb-3"><span>Grand Total</span><span>₹{{ grand_total|intcomma }}</span></div>
+          <button type="submit" class="btn btn-shoeland w-100">Place Order <i class="bi bi-check-circle"></i></button>
+        </div>
+      </div>
+    </form>
+  </div>
+</section>
+
+{% endblock %}

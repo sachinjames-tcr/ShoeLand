@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block title %}Categories | {{ SITE_NAME }}{% endblock %}
+{% block content %}
+<div class="breadcrumb-bar">
+  <div class="container">
+    <h1>Shop By Category</h1>
+    <nav aria-label="breadcrumb"><ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="{% url 'core:home' %}">Home</a></li>
+      <li class="breadcrumb-item active">Categories</li>
+    </ol></nav>
+  </div>
+</div>
+<section class="section">
+  <div class="container">
+    <div class="row g-4">
+      {% for cat in categories %}
+        <div class="col-6 col-md-4 col-lg-3">
+          <a href="{{ cat.get_absolute_url }}" class="category-tile">
+            {% if cat.image %}<img src="{{ cat.image.url }}" alt="{{ cat.name }}">{% else %}<img src="https://placehold.co/300x375/161616/ff6b00?text={{ cat.name|urlencode }}" alt="{{ cat.name }}">{% endif %}
+            <div class="cat-label">{{ cat.name }} <span class="text-muted small">({{ cat.products.count }})</span></div>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endblock %}

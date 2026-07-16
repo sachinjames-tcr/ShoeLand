@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block title %}Create Account | {{ SITE_NAME }}{% endblock %}
+{% block content %}
+<section class="section auth-wrap">
+  <div class="container">
+    <div class="row g-4 align-items-stretch">
+      <div class="col-lg-5 d-none d-lg-block">
+        <div class="auth-side">
+          <div class="eyebrow" style="color:var(--c-orange); font-weight:700; letter-spacing:0.15em; text-transform:uppercase; font-size:0.8rem;">Join Shoeland</div>
+          <h2 class="text-white">Step Into Something New</h2>
+          <p class="text-secondary">Create an account to track orders, save your wishlist, and check out faster.</p>
+        </div>
+      </div>
+      <div class="col-lg-7">
+        <div class="auth-card">
+          <h3 class="mb-4">Create Your Account</h3>
+          <form method="post" class="row g-3 needs-validation" novalidate>
+            {% csrf_token %}
+            <div class="col-md-6"><label class="form-label">First Name</label>{{ form.first_name }}</div>
+            <div class="col-md-6"><label class="form-label">Last Name</label>{{ form.last_name }}</div>
+            <div class="col-12"><label class="form-label">Username</label>{{ form.username }}{% if form.username.errors %}<div class="text-danger small">{{ form.username.errors|join:", " }}</div>{% endif %}</div>
+            <div class="col-12"><label class="form-label">Email</label>{{ form.email }}{% if form.email.errors %}<div class="text-danger small">{{ form.email.errors|join:", " }}</div>{% endif %}</div>
+            <div class="col-12"><label class="form-label">Phone</label>{{ form.phone }}</div>
+            <div class="col-md-6"><label class="form-label">Password</label>{{ form.password1 }}{% if form.password1.errors %}<div class="text-danger small">{{ form.password1.errors|join:", " }}</div>{% endif %}</div>
+            <div class="col-md-6"><label class="form-label">Confirm Password</label>{{ form.password2 }}{% if form.password2.errors %}<div class="text-danger small">{{ form.password2.errors|join:", " }}</div>{% endif %}</div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-shoeland w-100">Create Account <i class="bi bi-arrow-right"></i></button>
+            </div>
+          </form>
+          <p class="text-center mt-3 mb-0 small">Already have an account? <a href="{% url 'accounts:login' %}" class="text-orange fw-semibold">Log in</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

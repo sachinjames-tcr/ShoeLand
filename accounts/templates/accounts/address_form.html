@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block title %}{{ title }} | {{ SITE_NAME }}{% endblock %}
+{% block content %}
+<div class="breadcrumb-bar">
+  <div class="container">
+    <h1>{{ title }}</h1>
+    <nav aria-label="breadcrumb"><ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="{% url 'core:home' %}">Home</a></li>
+      <li class="breadcrumb-item"><a href="{% url 'accounts:address_list' %}">Addresses</a></li>
+      <li class="breadcrumb-item active">{{ title }}</li>
+    </ol></nav>
+  </div>
+</div>
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7">
+        <div class="card-shoeland p-4">
+          <form method="post" class="row g-3 needs-validation" novalidate>
+            {% csrf_token %}
+            <div class="col-md-6"><label class="form-label">Address Type</label>{{ form.address_type }}</div>
+            <div class="col-md-6"><label class="form-label">Full Name</label>{{ form.full_name }}</div>
+            <div class="col-md-6"><label class="form-label">Phone</label>{{ form.phone }}</div>
+            <div class="col-md-6"><label class="form-label">Country</label>{{ form.country }}</div>
+            <div class="col-12"><label class="form-label">Address Line 1</label>{{ form.line1 }}</div>
+            <div class="col-12"><label class="form-label">Address Line 2</label>{{ form.line2 }}</div>
+            <div class="col-md-4"><label class="form-label">City</label>{{ form.city }}</div>
+            <div class="col-md-4"><label class="form-label">State</label>{{ form.state }}</div>
+            <div class="col-md-4"><label class="form-label">Postal Code</label>{{ form.postal_code }}</div>
+            <div class="col-12 form-check">
+              {{ form.is_default }}
+              <label class="form-check-label" for="{{ form.is_default.id_for_label }}">Set as default address</label>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-shoeland">Save Address</button>
+              <a href="{% url 'accounts:address_list' %}" class="btn btn-shoeland-outline">Cancel</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
