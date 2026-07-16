@@ -1,0 +1,1 @@
+web: gunicorn shoeland_project.wsgi:application
